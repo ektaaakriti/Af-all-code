@@ -1,0 +1,1202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.20.3.final using JasperReports Library version 6.20.3-415f9428cffdb6805c6f85bbb29ebaf18813a2ab  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="A4Sight_Landscape_1" pageWidth="842" pageHeight="595" orientation="Landscape" columnWidth="802" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" isIgnorePagination="true" uuid="5c357211-0cf0-4e09-9a04-e06b6e5e5e7b">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="AfReports.jrdax"/>
+	<property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+	<property name="net.sf.jasperreports.export.xlsx.exclude.origin.band.1" value="pageFooter"/>
+	<property name="net.sf.jasperreports.export.xlsx.exclude.origin.keep.first.band.2" value="pageHeader"/>
+	<property name="net.sf.jasperreports.export.xls.remove.empty.space.between.columns" value="true"/>
+	<property name="net.sf.jasperreports.export.xls.remove.empty.space.between.rows" value="true"/>
+	<property name="net.sf.jasperreports.export.xls.exclude.origin.band.1" value="pageHeader"/>
+	<property name="net.sf.jasperreports.export.xls.exclude.origin.band.2" value="pageFooter"/>
+	<property name="net.sf.jasperreports.export.xlsx.exclude.origin.band.2" value="pageHeader"/>
+	<style name="Table_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<subDataset name="A4Sight" uuid="caede804-7fb4-437d-baaf-7d4f5bcbc3ac">
+		<property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+		<property name="com.jaspersoft.studio.data.defaultdataadapter" value="AfReports.jrdax"/>
+		<parameter name="start_date" class="java.lang.String"/>
+		<parameter name="end_date" class="java.lang.String"/>
+		<queryString language="SQL">
+			<![CDATA[SELECT *,
+CONCAT(TIMEDIFF(msg_deueue_datetime, Msg_datetime)) as "Resolution TAT",
+CONCAT(TIMEDIFF(feedback_datetime, Msg_datetime)) as "Closure TAT"
+FROM asset_master a
+JOIN vf_agent_mgs_dtls v
+ON a.user_id = v.user_id
+where DATE(Msg_datetime) between   $P{start_date} and $P{end_date}]]>
+		</queryString>
+		<field name="asset_id" class="java.lang.Integer">
+			<property name="com.jaspersoft.studio.field.name" value="asset_id"/>
+			<property name="com.jaspersoft.studio.field.label" value="asset_id"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="asset_master"/>
+		</field>
+		<field name="adobe_reader" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="adobe_reader"/>
+			<property name="com.jaspersoft.studio.field.label" value="adobe_reader"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="asset_master"/>
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="aforesight_agent_id" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="aforesight_agent_id"/>
+			<property name="com.jaspersoft.studio.field.label" value="aforesight_agent_id"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="asset_master"/>
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="anydesk" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="anydesk"/>
+			<property name="com.jaspersoft.studio.field.label" value="anydesk"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="asset_master"/>
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="assets_status" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="assets_status"/>
+			<property name="com.jaspersoft.studio.field.label" value="assets_status"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="asset_master"/>
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="auto_cad" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="auto_cad"/>
+			<property name="com.jaspersoft.studio.field.label" value="auto_cad"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="asset_master"/>
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="delete_status" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="delete_status"/>
+			<property name="com.jaspersoft.studio.field.label" value="delete_status"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="asset_master"/>
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="department_name" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="department_name"/>
+			<property name="com.jaspersoft.studio.field.label" value="department_name"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="asset_master"/>
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="google_chrome" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="google_chrome"/>
+			<property name="com.jaspersoft.studio.field.label" value="google_chrome"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="asset_master"/>
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="hd_capacity" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="hd_capacity"/>
+			<property name="com.jaspersoft.studio.field.label" value="hd_capacity"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="asset_master"/>
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="hd_make" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="hd_make"/>
+			<property name="com.jaspersoft.studio.field.label" value="hd_make"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="asset_master"/>
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="hd_model" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="hd_model"/>
+			<property name="com.jaspersoft.studio.field.label" value="hd_model"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="asset_master"/>
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="hd_serial_number" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="hd_serial_number"/>
+			<property name="com.jaspersoft.studio.field.label" value="hd_serial_number"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="asset_master"/>
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="java8" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="java8"/>
+			<property name="com.jaspersoft.studio.field.label" value="java8"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="asset_master"/>
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="mbd_make" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="mbd_make"/>
+			<property name="com.jaspersoft.studio.field.label" value="mbd_make"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="asset_master"/>
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="mbd_model" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="mbd_model"/>
+			<property name="com.jaspersoft.studio.field.label" value="mbd_model"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="asset_master"/>
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="mbd_serial_number" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="mbd_serial_number"/>
+			<property name="com.jaspersoft.studio.field.label" value="mbd_serial_number"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="asset_master"/>
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="ms_office_2007" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="ms_office_2007"/>
+			<property name="com.jaspersoft.studio.field.label" value="ms_office_2007"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="asset_master"/>
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="ms_office_2010" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="ms_office_2010"/>
+			<property name="com.jaspersoft.studio.field.label" value="ms_office_2010"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="asset_master"/>
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="ms_office_2013" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="ms_office_2013"/>
+			<property name="com.jaspersoft.studio.field.label" value="ms_office_2013"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="asset_master"/>
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="ms_office_2016" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="ms_office_2016"/>
+			<property name="com.jaspersoft.studio.field.label" value="ms_office_2016"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="asset_master"/>
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="mcafee_antivirus" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="mcafee_antivirus"/>
+			<property name="com.jaspersoft.studio.field.label" value="mcafee_antivirus"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="asset_master"/>
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="microsoft_teams" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="microsoft_teams"/>
+			<property name="com.jaspersoft.studio.field.label" value="microsoft_teams"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="asset_master"/>
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="monitor_model" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="monitor_model"/>
+			<property name="com.jaspersoft.studio.field.label" value="monitor_model"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="asset_master"/>
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="monitor_screen_make" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="monitor_screen_make"/>
+			<property name="com.jaspersoft.studio.field.label" value="monitor_screen_make"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="asset_master"/>
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="monitor_screen_size" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="monitor_screen_size"/>
+			<property name="com.jaspersoft.studio.field.label" value="monitor_screen_size"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="asset_master"/>
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="monitor_serial_number" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="monitor_serial_number"/>
+			<property name="com.jaspersoft.studio.field.label" value="monitor_serial_number"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="asset_master"/>
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="mozilla_firefox" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="mozilla_firefox"/>
+			<property name="com.jaspersoft.studio.field.label" value="mozilla_firefox"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="asset_master"/>
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="os_version" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="os_version"/>
+			<property name="com.jaspersoft.studio.field.label" value="os_version"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="asset_master"/>
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="one_drive" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="one_drive"/>
+			<property name="com.jaspersoft.studio.field.label" value="one_drive"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="asset_master"/>
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="processor_details" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="processor_details"/>
+			<property name="com.jaspersoft.studio.field.label" value="processor_details"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="asset_master"/>
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="procument_id" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="procument_id"/>
+			<property name="com.jaspersoft.studio.field.label" value="procument_id"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="asset_master"/>
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="procured_date" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="procured_date"/>
+			<property name="com.jaspersoft.studio.field.label" value="procured_date"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="asset_master"/>
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="product_type" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="product_type"/>
+			<property name="com.jaspersoft.studio.field.label" value="product_type"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="asset_master"/>
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="ram_available" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="ram_available"/>
+			<property name="com.jaspersoft.studio.field.label" value="ram_available"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="asset_master"/>
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="ram_used" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="ram_used"/>
+			<property name="com.jaspersoft.studio.field.label" value="ram_used"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="asset_master"/>
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="retired_date" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="retired_date"/>
+			<property name="com.jaspersoft.studio.field.label" value="retired_date"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="asset_master"/>
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="scan_date" class="java.time.LocalDateTime">
+			<property name="com.jaspersoft.studio.field.name" value="scan_date"/>
+			<property name="com.jaspersoft.studio.field.label" value="scan_date"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="asset_master"/>
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="site_name" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="site_name"/>
+			<property name="com.jaspersoft.studio.field.label" value="site_name"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="asset_master"/>
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="software_list_with_version_and_installed_date" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="software_list_with_version_and_installed_date"/>
+			<property name="com.jaspersoft.studio.field.label" value="software_list_with_version_and_installed_date"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="asset_master"/>
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="sub_department_name" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="sub_department_name"/>
+			<property name="com.jaspersoft.studio.field.label" value="sub_department_name"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="asset_master"/>
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="symantec_antivirus" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="symantec_antivirus"/>
+			<property name="com.jaspersoft.studio.field.label" value="symantec_antivirus"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="asset_master"/>
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="system_hostname" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="system_hostname"/>
+			<property name="com.jaspersoft.studio.field.label" value="system_hostname"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="asset_master"/>
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="system_ip_address" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="system_ip_address"/>
+			<property name="com.jaspersoft.studio.field.label" value="system_ip_address"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="asset_master"/>
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="system_make" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="system_make"/>
+			<property name="com.jaspersoft.studio.field.label" value="system_make"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="asset_master"/>
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="system_model" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="system_model"/>
+			<property name="com.jaspersoft.studio.field.label" value="system_model"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="asset_master"/>
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="system_os_type" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="system_os_type"/>
+			<property name="com.jaspersoft.studio.field.label" value="system_os_type"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="asset_master"/>
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="system_serial_number" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="system_serial_number"/>
+			<property name="com.jaspersoft.studio.field.label" value="system_serial_number"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="asset_master"/>
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="team_viewer" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="team_viewer"/>
+			<property name="com.jaspersoft.studio.field.label" value="team_viewer"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="asset_master"/>
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="total_ram" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="total_ram"/>
+			<property name="com.jaspersoft.studio.field.label" value="total_ram"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="asset_master"/>
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="trend_micro_antivirus" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="trend_micro_antivirus"/>
+			<property name="com.jaspersoft.studio.field.label" value="trend_micro_antivirus"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="asset_master"/>
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="type_of_chipset" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="type_of_chipset"/>
+			<property name="com.jaspersoft.studio.field.label" value="type_of_chipset"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="asset_master"/>
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="username" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="username"/>
+			<property name="com.jaspersoft.studio.field.label" value="username"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="asset_master"/>
+		</field>
+		<field name="warranty_amc" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="warranty_amc"/>
+			<property name="com.jaspersoft.studio.field.label" value="warranty_amc"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="asset_master"/>
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="warranty_amc_vendor_name" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="warranty_amc_vendor_name"/>
+			<property name="com.jaspersoft.studio.field.label" value="warranty_amc_vendor_name"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="asset_master"/>
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="warrenty_amc_from" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="warrenty_amc_from"/>
+			<property name="com.jaspersoft.studio.field.label" value="warrenty_amc_from"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="asset_master"/>
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="warrenty_amc_to" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="warrenty_amc_to"/>
+			<property name="com.jaspersoft.studio.field.label" value="warrenty_amc_to"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="asset_master"/>
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="webex" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="webex"/>
+			<property name="com.jaspersoft.studio.field.label" value="webex"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="asset_master"/>
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="winrar" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="winrar"/>
+			<property name="com.jaspersoft.studio.field.label" value="winrar"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="asset_master"/>
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="zoom" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="zoom"/>
+			<property name="com.jaspersoft.studio.field.label" value="zoom"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="asset_master"/>
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="zip7" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="zip7"/>
+			<property name="com.jaspersoft.studio.field.label" value="zip7"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="asset_master"/>
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="os_key" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="os_key"/>
+			<property name="com.jaspersoft.studio.field.label" value="os_key"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="asset_master"/>
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="os_license_details" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="os_license_details"/>
+			<property name="com.jaspersoft.studio.field.label" value="os_license_details"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="asset_master"/>
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="system_form_factor" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="system_form_factor"/>
+			<property name="com.jaspersoft.studio.field.label" value="system_form_factor"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="asset_master"/>
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="ram_slots_available" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="ram_slots_available"/>
+			<property name="com.jaspersoft.studio.field.label" value="ram_slots_available"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="asset_master"/>
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="ram_slots_used" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="ram_slots_used"/>
+			<property name="com.jaspersoft.studio.field.label" value="ram_slots_used"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="asset_master"/>
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="user_id" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="user_id"/>
+			<property name="com.jaspersoft.studio.field.label" value="user_id"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="asset_master"/>
+		</field>
+		<field name="count" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="count"/>
+			<property name="com.jaspersoft.studio.field.label" value="count"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="asset_master"/>
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+		<field name="Msg_id" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="Msg_id"/>
+			<property name="com.jaspersoft.studio.field.label" value="Msg_id"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="vf_agent_mgs_dtls"/>
+		</field>
+		<field name="Msg_description" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="Msg_description"/>
+			<property name="com.jaspersoft.studio.field.label" value="Msg_description"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="vf_agent_mgs_dtls"/>
+		</field>
+		<field name="Msg_datetime" class="java.time.LocalDateTime">
+			<property name="com.jaspersoft.studio.field.name" value="Msg_datetime"/>
+			<property name="com.jaspersoft.studio.field.label" value="Msg_datetime"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="vf_agent_mgs_dtls"/>
+		</field>
+		<field name="msg_enqueue_datetime" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="msg_enqueue_datetime"/>
+			<property name="com.jaspersoft.studio.field.label" value="msg_enqueue_datetime"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="vf_agent_mgs_dtls"/>
+		</field>
+		<field name="msg_deueue_datetime" class="java.time.LocalDateTime">
+			<property name="com.jaspersoft.studio.field.name" value="msg_deueue_datetime"/>
+			<property name="com.jaspersoft.studio.field.label" value="msg_deueue_datetime"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="vf_agent_mgs_dtls"/>
+		</field>
+		<field name="msg_ticket_id" class="java.lang.Integer">
+			<property name="com.jaspersoft.studio.field.name" value="msg_ticket_id"/>
+			<property name="com.jaspersoft.studio.field.label" value="msg_ticket_id"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="vf_agent_mgs_dtls"/>
+		</field>
+		<field name="msg_status_YN" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="msg_status_YN"/>
+			<property name="com.jaspersoft.studio.field.label" value="msg_status_YN"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="vf_agent_mgs_dtls"/>
+		</field>
+		<field name="COLUMN_76" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="username"/>
+			<property name="com.jaspersoft.studio.field.label" value="username"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="vf_agent_mgs_dtls"/>
+		</field>
+		<field name="password" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="password"/>
+			<property name="com.jaspersoft.studio.field.label" value="password"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="vf_agent_mgs_dtls"/>
+		</field>
+		<field name="COLUMN_78" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="asset_id"/>
+			<property name="com.jaspersoft.studio.field.label" value="asset_id"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="vf_agent_mgs_dtls"/>
+		</field>
+		<field name="ticket_id" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="ticket_id"/>
+			<property name="com.jaspersoft.studio.field.label" value="ticket_id"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="vf_agent_mgs_dtls"/>
+		</field>
+		<field name="COLUMN_80" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="user_id"/>
+			<property name="com.jaspersoft.studio.field.label" value="user_id"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="vf_agent_mgs_dtls"/>
+		</field>
+		<field name="software_install_choice" class="java.lang.Integer">
+			<property name="com.jaspersoft.studio.field.name" value="software_install_choice"/>
+			<property name="com.jaspersoft.studio.field.label" value="software_install_choice"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="vf_agent_mgs_dtls"/>
+		</field>
+		<field name="itsm_reqid" class="java.lang.Integer">
+			<property name="com.jaspersoft.studio.field.name" value="itsm_reqid"/>
+			<property name="com.jaspersoft.studio.field.label" value="itsm_reqid"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="vf_agent_mgs_dtls"/>
+		</field>
+		<field name="outlook_email" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="outlook_email"/>
+			<property name="com.jaspersoft.studio.field.label" value="outlook_email"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="vf_agent_mgs_dtls"/>
+		</field>
+		<field name="system_name" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="system_name"/>
+			<property name="com.jaspersoft.studio.field.label" value="system_name"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="vf_agent_mgs_dtls"/>
+		</field>
+		<field name="ItsmassignTo" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="ItsmassignTo"/>
+			<property name="com.jaspersoft.studio.field.label" value="ItsmassignTo"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="vf_agent_mgs_dtls"/>
+		</field>
+		<field name="mail_send" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="mail_send"/>
+			<property name="com.jaspersoft.studio.field.label" value="mail_send"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="vf_agent_mgs_dtls"/>
+		</field>
+		<field name="feedback_datetime" class="java.time.LocalDateTime">
+			<property name="com.jaspersoft.studio.field.name" value="feedback_datetime"/>
+			<property name="com.jaspersoft.studio.field.label" value="feedback_datetime"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="vf_agent_mgs_dtls"/>
+		</field>
+		<field name="csat_rating" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="csat_rating"/>
+			<property name="com.jaspersoft.studio.field.label" value="csat_rating"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="vf_agent_mgs_dtls"/>
+		</field>
+		<field name="qfix_description" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="qfix_description"/>
+			<property name="com.jaspersoft.studio.field.label" value="qfix_description"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="vf_agent_mgs_dtls"/>
+		</field>
+		<field name="qfix_category" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="qfix_category"/>
+			<property name="com.jaspersoft.studio.field.label" value="qfix_category"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="vf_agent_mgs_dtls"/>
+		</field>
+		<field name="csat_rating_mean" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="csat_rating_mean"/>
+			<property name="com.jaspersoft.studio.field.label" value="csat_rating_mean"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="vf_agent_mgs_dtls"/>
+		</field>
+		<field name="Resolution TAT" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="Resolution TAT"/>
+			<property name="com.jaspersoft.studio.field.label" value="Resolution TAT"/>
+		</field>
+		<field name="Closure TAT" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="Closure TAT"/>
+			<property name="com.jaspersoft.studio.field.label" value="Closure TAT"/>
+		</field>
+		<group name="Msg_id">
+			<groupExpression><![CDATA[$F{Msg_id}]]></groupExpression>
+		</group>
+		<group name="Msg_description">
+			<groupExpression><![CDATA[$F{Msg_description}]]></groupExpression>
+		</group>
+		<group name="Msg_datetime">
+			<groupExpression><![CDATA[$F{Msg_datetime}]]></groupExpression>
+		</group>
+		<group name="msg_enqueue_datetime">
+			<groupExpression><![CDATA[$F{msg_enqueue_datetime}]]></groupExpression>
+		</group>
+		<group name="msg_deueue_datetime">
+			<groupExpression><![CDATA[$F{msg_deueue_datetime}]]></groupExpression>
+		</group>
+		<group name="msg_ticket_id">
+			<groupExpression><![CDATA[$F{msg_ticket_id}]]></groupExpression>
+		</group>
+		<group name="msg_status_YN">
+			<groupExpression><![CDATA[$F{msg_status_YN}]]></groupExpression>
+		</group>
+		<group name="username">
+			<groupExpression><![CDATA[$F{username}]]></groupExpression>
+		</group>
+		<group name="password">
+			<groupExpression><![CDATA[$F{password}]]></groupExpression>
+		</group>
+		<group name="asset_id">
+			<groupExpression><![CDATA[$F{asset_id}]]></groupExpression>
+		</group>
+		<group name="ticket_id">
+			<groupExpression><![CDATA[$F{ticket_id}]]></groupExpression>
+		</group>
+		<group name="user_id">
+			<groupExpression><![CDATA[$F{user_id}]]></groupExpression>
+		</group>
+		<group name="software_install_choice">
+			<groupExpression><![CDATA[$F{software_install_choice}]]></groupExpression>
+		</group>
+		<group name="itsm_reqid">
+			<groupExpression><![CDATA[$F{itsm_reqid}]]></groupExpression>
+		</group>
+		<group name="outlook_email">
+			<groupExpression><![CDATA[$F{outlook_email}]]></groupExpression>
+		</group>
+		<group name="system_name">
+			<groupExpression><![CDATA[$F{system_name}]]></groupExpression>
+		</group>
+		<group name="ItsmassignTo">
+			<groupExpression><![CDATA[$F{ItsmassignTo}]]></groupExpression>
+		</group>
+		<group name="mail_send">
+			<groupExpression><![CDATA[$F{mail_send}]]></groupExpression>
+		</group>
+		<group name="feedback_datetime">
+			<groupExpression><![CDATA[$F{feedback_datetime}]]></groupExpression>
+		</group>
+	</subDataset>
+	<parameter name="end_date" class="java.lang.String">
+		<defaultValueExpression><![CDATA["2023-01-01"]]></defaultValueExpression>
+	</parameter>
+	<parameter name="start_date" class="java.lang.String">
+		<defaultValueExpression><![CDATA["2022-01-01"]]></defaultValueExpression>
+	</parameter>
+	<parameter name="format" class="java.lang.String" isForPrompting="false">
+		<defaultValueExpression><![CDATA["xlsx"]]></defaultValueExpression>
+	</parameter>
+	<queryString>
+		<![CDATA[Select 1]]>
+	</queryString>
+	<field name="1" class="java.lang.Long">
+		<property name="com.jaspersoft.studio.field.name" value="1"/>
+		<property name="com.jaspersoft.studio.field.label" value="1"/>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<pageHeader>
+		<band height="95">
+			<staticText>
+				<reportElement x="160" y="10" width="460" height="40" uuid="34fab9d6-17e9-4e9d-bcf6-442e19af657a">
+					<printWhenExpression><![CDATA[$P{format}.equals("xlsx") ? new Boolean(false) : new Boolean(true)]]></printWhenExpression>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="SansSerif" size="20" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Total Ticket Raised Summary]]></text>
+			</staticText>
+			<textField pattern="MMMMM dd, yyyy">
+				<reportElement x="708" y="37" width="100" height="30" uuid="665a4937-fb88-42cb-91a7-ced7647c3307">
+					<printWhenExpression><![CDATA[$P{format}.equals("xlsx") ? new Boolean(false) : new Boolean(true)]]></printWhenExpression>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="-6" y="52" width="56" height="43" uuid="05f1112f-2712-457b-9769-a8820e419fbe">
+					<printWhenExpression><![CDATA[$P{format}.equals("xlsx") ? new Boolean(false) : new Boolean(true)]]></printWhenExpression>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[Start Date-]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="60" y="60" width="59" height="30" uuid="1ac2983f-0d10-48dc-a1a5-d64290e04b51">
+					<printWhenExpression><![CDATA[$P{format}.equals("xlsx") ? new Boolean(false) : new Boolean(true)]]></printWhenExpression>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$P{start_date}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="130" y="58" width="70" height="30" uuid="76ab0591-d11f-45ce-9a6a-526478293ca3">
+					<printWhenExpression><![CDATA[$P{format}.equals("xlsx") ? new Boolean(false) : new Boolean(true)]]></printWhenExpression>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[End Date]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="210" y="60" width="100" height="30" uuid="f7b4da86-3145-47e5-a2c1-d30b89b5d292">
+					<printWhenExpression><![CDATA[$P{format}.equals("xlsx") ? new Boolean(false) : new Boolean(true)]]></printWhenExpression>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$P{end_date}]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageHeader>
+	<detail>
+		<band height="142" splitType="Stretch">
+			<componentElement>
+				<reportElement x="-8" y="0" width="819" height="142" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" uuid="3b271a10-6239-404e-8c11-0f9e0a8dd00b">
+					<property name="com.jaspersoft.studio.layout" value="com.jaspersoft.studio.editor.layout.VerticalRowLayout"/>
+					<property name="com.jaspersoft.studio.table.style.table_header" value="Table_TH"/>
+					<property name="com.jaspersoft.studio.table.style.column_header" value="Table_CH"/>
+					<property name="com.jaspersoft.studio.table.style.detail" value="Table_TD"/>
+					<printWhenExpression><![CDATA[$V{PAGE_NUMBER}==1]]></printWhenExpression>
+				</reportElement>
+				<jr:table xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
+					<datasetRun subDataset="A4Sight" uuid="970b5576-bb1c-4f3a-927e-9d8981e00a9c">
+						<datasetParameter name="start_date">
+							<datasetParameterExpression><![CDATA[$P{start_date}]]></datasetParameterExpression>
+						</datasetParameter>
+						<datasetParameter name="end_date">
+							<datasetParameterExpression><![CDATA[$P{end_date}]]></datasetParameterExpression>
+						</datasetParameter>
+						<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+					</datasetRun>
+					<jr:columnGroup width="819" uuid="6d2f51f0-0782-40dc-b7ae-fc7ba8ca0fc3">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Columns [16]"/>
+						<jr:columnFooter style="Table_CH" height="2" rowSpan="1"/>
+						<jr:column width="52" uuid="178d6ff8-d7b5-4638-b2e0-cead60612a73">
+							<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column1"/>
+							<jr:columnHeader style="Table_CH" height="70" rowSpan="1">
+								<staticText>
+									<reportElement mode="Transparent" x="0" y="0" width="52" height="70" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" forecolor="#050505" backcolor="#FFFFFF" uuid="84f50d2e-085c-4f3e-a55a-92cb3500f54c">
+										<property name="com.jaspersoft.studio.unit.width" value="px"/>
+										<printWhenExpression><![CDATA[$V{PAGE_NUMBER}==1]]></printWhenExpression>
+									</reportElement>
+									<box topPadding="1" leftPadding="1" bottomPadding="1" rightPadding="1">
+										<pen lineWidth="1.0"/>
+									</box>
+									<textElement textAlignment="Center" verticalAlignment="Middle">
+										<font size="11" isBold="true"/>
+									</textElement>
+									<text><![CDATA[System User Name]]></text>
+								</staticText>
+							</jr:columnHeader>
+							<jr:detailCell style="Table_TD" height="70">
+								<textField>
+									<reportElement x="0" y="0" width="52" height="70" uuid="e4747613-42d8-4bfd-9096-98159aca1173"/>
+									<textElement textAlignment="Center" verticalAlignment="Middle"/>
+									<textFieldExpression><![CDATA[$F{user_id}]]></textFieldExpression>
+								</textField>
+							</jr:detailCell>
+						</jr:column>
+						<jr:column width="51" uuid="29050b8a-bc6b-4c5a-a5ae-114c6f510fe7">
+							<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column2"/>
+							<jr:columnHeader style="Table_CH" height="70" rowSpan="1">
+								<staticText>
+									<reportElement mode="Transparent" x="0" y="0" width="51" height="70" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" forecolor="#050505" backcolor="#FFFFFF" uuid="019940cb-153d-454d-b691-86d360b1b729">
+										<property name="com.jaspersoft.studio.unit.width" value="px"/>
+										<printWhenExpression><![CDATA[$V{PAGE_NUMBER}==1]]></printWhenExpression>
+									</reportElement>
+									<box topPadding="1" leftPadding="1" bottomPadding="1" rightPadding="1">
+										<pen lineWidth="1.0"/>
+									</box>
+									<textElement textAlignment="Center" verticalAlignment="Middle">
+										<font size="11" isBold="true"/>
+									</textElement>
+									<text><![CDATA[System Serial Number]]></text>
+								</staticText>
+							</jr:columnHeader>
+							<jr:detailCell style="Table_TD" height="70">
+								<textField>
+									<reportElement x="0" y="0" width="51" height="70" uuid="38706841-b661-44d3-8fc7-4fe05aa6ef6a"/>
+									<textElement textAlignment="Center" verticalAlignment="Middle"/>
+									<textFieldExpression><![CDATA[$F{system_serial_number}]]></textFieldExpression>
+								</textField>
+							</jr:detailCell>
+						</jr:column>
+						<jr:column width="51" uuid="08b218b0-cba7-46dc-a4a7-1481519db7ae">
+							<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column3"/>
+							<jr:columnHeader style="Table_CH" height="70" rowSpan="1">
+								<staticText>
+									<reportElement mode="Transparent" x="0" y="0" width="51" height="70" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" forecolor="#050505" backcolor="#FFFFFF" uuid="eeef7bc9-f876-4bfb-a824-c804ecdd1e6f">
+										<property name="com.jaspersoft.studio.unit.width" value="px"/>
+										<printWhenExpression><![CDATA[$V{PAGE_NUMBER}==1]]></printWhenExpression>
+									</reportElement>
+									<box topPadding="1" leftPadding="1" bottomPadding="1" rightPadding="1">
+										<pen lineWidth="1.0"/>
+									</box>
+									<textElement textAlignment="Center" verticalAlignment="Middle">
+										<font size="11" isBold="true"/>
+									</textElement>
+									<text><![CDATA[System IP Address]]></text>
+								</staticText>
+							</jr:columnHeader>
+							<jr:detailCell style="Table_TD" height="70">
+								<textField>
+									<reportElement x="0" y="0" width="51" height="70" uuid="c694c7a0-562a-4474-beb8-37ecca70d4d2"/>
+									<textElement textAlignment="Center" verticalAlignment="Middle"/>
+									<textFieldExpression><![CDATA[$F{system_ip_address}]]></textFieldExpression>
+								</textField>
+							</jr:detailCell>
+						</jr:column>
+						<jr:column width="51" uuid="784e1df3-b341-4d7c-8f80-8aeefd6af7de">
+							<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column4"/>
+							<jr:columnHeader style="Table_CH" height="70" rowSpan="1">
+								<staticText>
+									<reportElement mode="Transparent" x="0" y="0" width="51" height="70" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" forecolor="#050505" backcolor="#FFFFFF" uuid="766e16b6-1580-40c9-b8bc-1552f38e4766">
+										<property name="com.jaspersoft.studio.unit.width" value="px"/>
+										<printWhenExpression><![CDATA[$V{PAGE_NUMBER}==1]]></printWhenExpression>
+									</reportElement>
+									<box topPadding="1" leftPadding="1" bottomPadding="1" rightPadding="1">
+										<pen lineWidth="1.0"/>
+									</box>
+									<textElement textAlignment="Center" verticalAlignment="Middle">
+										<font size="11" isBold="true"/>
+									</textElement>
+									<text><![CDATA[MBD Serial Number]]></text>
+								</staticText>
+							</jr:columnHeader>
+							<jr:detailCell style="Table_TD" height="70">
+								<textField>
+									<reportElement x="0" y="0" width="51" height="70" uuid="e6db328d-225f-4dfa-9aa2-4ac3fc5381bf"/>
+									<textElement textAlignment="Center" verticalAlignment="Middle"/>
+									<textFieldExpression><![CDATA[$F{mbd_serial_number}]]></textFieldExpression>
+								</textField>
+							</jr:detailCell>
+						</jr:column>
+						<jr:column width="51" uuid="1815c44b-3322-4122-b0fe-0c3c1ac1bec2">
+							<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column5"/>
+							<jr:columnHeader style="Table_CH" height="70" rowSpan="1">
+								<staticText>
+									<reportElement mode="Transparent" x="0" y="0" width="51" height="70" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" forecolor="#050505" backcolor="#FFFFFF" uuid="c4b6bb22-007e-496a-a536-6cabdbe663c7">
+										<property name="com.jaspersoft.studio.unit.width" value="px"/>
+										<printWhenExpression><![CDATA[$V{PAGE_NUMBER}==1]]></printWhenExpression>
+									</reportElement>
+									<box topPadding="1" leftPadding="1" bottomPadding="1" rightPadding="1">
+										<pen lineWidth="1.0"/>
+									</box>
+									<textElement textAlignment="Center" verticalAlignment="Middle">
+										<font size="11" isBold="true"/>
+									</textElement>
+									<text><![CDATA[System Hostname ]]></text>
+								</staticText>
+							</jr:columnHeader>
+							<jr:detailCell style="Table_TD" height="70">
+								<textField>
+									<reportElement x="0" y="0" width="51" height="70" uuid="51a169b4-26f4-4da9-b0c6-6f01814a4caf"/>
+									<textElement textAlignment="Center" verticalAlignment="Middle"/>
+									<textFieldExpression><![CDATA[$F{system_hostname}]]></textFieldExpression>
+								</textField>
+							</jr:detailCell>
+						</jr:column>
+						<jr:column width="51" uuid="8964da96-4088-422d-a36c-ec34a96f634d">
+							<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column6"/>
+							<jr:columnHeader style="Table_CH" height="70" rowSpan="1">
+								<staticText>
+									<reportElement mode="Transparent" x="0" y="0" width="51" height="70" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" forecolor="#050505" backcolor="#FFFFFF" uuid="ad846268-ef48-4c09-8182-9960a87afa2d">
+										<property name="com.jaspersoft.studio.unit.width" value="px"/>
+										<printWhenExpression><![CDATA[$V{PAGE_NUMBER}==1]]></printWhenExpression>
+									</reportElement>
+									<box topPadding="1" leftPadding="1" bottomPadding="1" rightPadding="1">
+										<pen lineWidth="1.0"/>
+									</box>
+									<textElement textAlignment="Center" verticalAlignment="Middle">
+										<font size="11" isBold="true"/>
+									</textElement>
+									<text><![CDATA[System Make]]></text>
+								</staticText>
+							</jr:columnHeader>
+							<jr:detailCell style="Table_TD" height="70">
+								<textField>
+									<reportElement x="0" y="0" width="51" height="70" uuid="ed9ec7dc-737d-41f4-8a97-35c411afb3ea"/>
+									<textElement textAlignment="Center" verticalAlignment="Middle"/>
+									<textFieldExpression><![CDATA[$F{system_make}]]></textFieldExpression>
+								</textField>
+							</jr:detailCell>
+						</jr:column>
+						<jr:column width="51" uuid="5c4828e0-a112-467f-b5cc-274bd8a449d9">
+							<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column7"/>
+							<jr:columnHeader style="Table_CH" height="70" rowSpan="1">
+								<staticText>
+									<reportElement mode="Transparent" x="0" y="0" width="51" height="70" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" forecolor="#050505" backcolor="#FFFFFF" uuid="07e0e54e-5740-40e9-b2c8-d31d7816841d">
+										<property name="com.jaspersoft.studio.unit.width" value="px"/>
+										<printWhenExpression><![CDATA[$V{PAGE_NUMBER}==1]]></printWhenExpression>
+									</reportElement>
+									<box topPadding="1" leftPadding="1" bottomPadding="1" rightPadding="1">
+										<pen lineWidth="1.0"/>
+									</box>
+									<textElement textAlignment="Center" verticalAlignment="Middle">
+										<font size="11" isBold="true"/>
+									</textElement>
+									<text><![CDATA[Model]]></text>
+								</staticText>
+							</jr:columnHeader>
+							<jr:detailCell style="Table_TD" height="70">
+								<textField>
+									<reportElement x="0" y="0" width="51" height="70" uuid="73b33d16-417f-421e-8acd-5b3ef9af883b"/>
+									<textElement textAlignment="Center" verticalAlignment="Middle"/>
+									<textFieldExpression><![CDATA[$F{system_model}]]></textFieldExpression>
+								</textField>
+							</jr:detailCell>
+						</jr:column>
+						<jr:column width="51" uuid="9e64b19b-4b38-4ddd-a6cd-1cd589b9635d">
+							<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column8"/>
+							<jr:columnHeader style="Table_CH" height="70" rowSpan="1">
+								<staticText>
+									<reportElement mode="Transparent" x="0" y="0" width="51" height="70" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" forecolor="#050505" backcolor="#FFFFFF" uuid="833dd1e2-1567-4aba-a34d-16f970f71928">
+										<property name="com.jaspersoft.studio.unit.width" value="px"/>
+										<printWhenExpression><![CDATA[$V{PAGE_NUMBER}==1]]></printWhenExpression>
+									</reportElement>
+									<box topPadding="1" leftPadding="1" bottomPadding="1" rightPadding="1">
+										<pen lineWidth="1.0"/>
+									</box>
+									<textElement textAlignment="Center" verticalAlignment="Middle">
+										<font size="11" isBold="true"/>
+									</textElement>
+									<text><![CDATA[Ticket ID]]></text>
+								</staticText>
+							</jr:columnHeader>
+							<jr:detailCell style="Table_TD" height="70">
+								<textField>
+									<reportElement x="0" y="0" width="51" height="70" uuid="c82f4542-e270-44a6-b7f1-72287ddbbfca"/>
+									<textElement textAlignment="Center" verticalAlignment="Middle"/>
+									<textFieldExpression><![CDATA[$F{msg_ticket_id}]]></textFieldExpression>
+								</textField>
+							</jr:detailCell>
+						</jr:column>
+						<jr:column width="51" uuid="4ccb4771-4501-4206-9095-edecf24e6460">
+							<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column9"/>
+							<jr:columnHeader style="Table_CH" height="70" rowSpan="1">
+								<staticText>
+									<reportElement mode="Transparent" x="0" y="0" width="51" height="70" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" forecolor="#050505" backcolor="#FFFFFF" uuid="81997bc0-a6e0-4e89-b7ff-af2d61460b7e">
+										<property name="com.jaspersoft.studio.unit.width" value="px"/>
+										<printWhenExpression><![CDATA[$V{PAGE_NUMBER}==1]]></printWhenExpression>
+									</reportElement>
+									<box topPadding="1" leftPadding="1" bottomPadding="1" rightPadding="1">
+										<pen lineWidth="1.0"/>
+									</box>
+									<textElement textAlignment="Center" verticalAlignment="Middle">
+										<font size="11" isBold="true"/>
+									</textElement>
+									<text><![CDATA[Ticket Raise Date / Time]]></text>
+								</staticText>
+							</jr:columnHeader>
+							<jr:detailCell style="Table_TD" height="70">
+								<textField>
+									<reportElement x="0" y="0" width="51" height="70" uuid="6ac49b39-ad1f-4428-9b0d-6e67ab2ddbeb"/>
+									<textElement textAlignment="Center" verticalAlignment="Middle"/>
+									<textFieldExpression><![CDATA[$F{Msg_datetime}]]></textFieldExpression>
+								</textField>
+							</jr:detailCell>
+						</jr:column>
+						<jr:column width="52" uuid="2abcadfa-8c3a-40eb-ab51-a66f6de58b25">
+							<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column10"/>
+							<jr:columnHeader style="Table_CH" height="70" rowSpan="1">
+								<staticText>
+									<reportElement mode="Transparent" x="0" y="0" width="52" height="70" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" forecolor="#050505" backcolor="#FFFFFF" uuid="cff50c0b-54da-4378-b515-d4b1a1a4b5db">
+										<property name="com.jaspersoft.studio.unit.width" value="px"/>
+										<printWhenExpression><![CDATA[$V{PAGE_NUMBER}==1]]></printWhenExpression>
+									</reportElement>
+									<box topPadding="1" leftPadding="1" bottomPadding="1" rightPadding="1">
+										<pen lineWidth="1.0"/>
+									</box>
+									<textElement textAlignment="Center" verticalAlignment="Middle">
+										<font size="11" isBold="true"/>
+									</textElement>
+									<text><![CDATA[Qfix Description]]></text>
+								</staticText>
+							</jr:columnHeader>
+							<jr:detailCell style="Table_TD" height="70">
+								<textField>
+									<reportElement x="0" y="0" width="52" height="70" uuid="6f388826-1948-416a-97ef-515657ebd098"/>
+									<textElement textAlignment="Center" verticalAlignment="Middle"/>
+									<textFieldExpression><![CDATA[$F{Msg_description}]]></textFieldExpression>
+								</textField>
+							</jr:detailCell>
+						</jr:column>
+						<jr:column width="51" uuid="759ba30d-d59c-4067-83c6-6134a0b65855">
+							<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column11"/>
+							<jr:columnHeader style="Table_CH" height="70" rowSpan="1">
+								<staticText>
+									<reportElement mode="Transparent" x="0" y="0" width="51" height="70" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" forecolor="#050505" backcolor="#FFFFFF" uuid="5b567273-e821-47a4-a542-a911c75802dc">
+										<property name="com.jaspersoft.studio.unit.width" value="px"/>
+										<printWhenExpression><![CDATA[$V{PAGE_NUMBER}==1]]></printWhenExpression>
+									</reportElement>
+									<box topPadding="1" leftPadding="1" bottomPadding="1" rightPadding="1">
+										<pen lineWidth="1.0"/>
+									</box>
+									<textElement textAlignment="Center" verticalAlignment="Middle">
+										<font size="11" isBold="true"/>
+									</textElement>
+									<text><![CDATA[Ticket Status]]></text>
+								</staticText>
+							</jr:columnHeader>
+							<jr:detailCell style="Table_TD" height="70">
+								<textField>
+									<reportElement x="0" y="0" width="51" height="70" uuid="64d1a438-bbc1-46ef-9faa-2c2d82f4d3c5"/>
+									<textElement textAlignment="Center" verticalAlignment="Middle"/>
+									<textFieldExpression><![CDATA[($F{msg_status_YN}.equals("N")  ?  "Resolved" : ($F{msg_status_YN}.equals("C")  ?  "Closed" : ($F{msg_status_YN}.equals("Cf")  ?  "Closed" : ($F{msg_status_YN}.equals("O")  ?  "Opened" : "Opened"))))]]></textFieldExpression>
+								</textField>
+							</jr:detailCell>
+						</jr:column>
+						<jr:column width="51" uuid="15787f2f-73cc-409d-a51e-813588f74be5">
+							<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column12"/>
+							<jr:columnHeader style="Table_CH" height="70" rowSpan="1">
+								<staticText>
+									<reportElement mode="Transparent" x="0" y="0" width="51" height="70" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" forecolor="#050505" backcolor="#FFFFFF" uuid="be141dc1-a689-483b-8533-a3be4f658878">
+										<property name="com.jaspersoft.studio.unit.x" value="px"/>
+										<property name="com.jaspersoft.studio.unit.y" value="px"/>
+										<property name="com.jaspersoft.studio.unit.width" value="px"/>
+										<printWhenExpression><![CDATA[$V{PAGE_NUMBER}==1]]></printWhenExpression>
+									</reportElement>
+									<box topPadding="1" leftPadding="1" bottomPadding="1" rightPadding="1">
+										<pen lineWidth="1.0"/>
+									</box>
+									<textElement textAlignment="Center" verticalAlignment="Middle">
+										<font size="11" isBold="true"/>
+									</textElement>
+									<text><![CDATA[Ticket Close Date / Time]]></text>
+								</staticText>
+							</jr:columnHeader>
+							<jr:detailCell style="Table_TD" height="70">
+								<textField>
+									<reportElement x="0" y="0" width="51" height="70" uuid="034ee90c-45ed-441c-a015-68c9db9ca800"/>
+									<textElement textAlignment="Center" verticalAlignment="Middle"/>
+									<textFieldExpression><![CDATA[$F{feedback_datetime}]]></textFieldExpression>
+								</textField>
+							</jr:detailCell>
+						</jr:column>
+						<jr:column width="51" uuid="4382cc80-137b-4338-a0bb-693d5aaa16fa">
+							<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column13"/>
+							<jr:columnHeader style="Table_CH" height="70" rowSpan="1">
+								<staticText>
+									<reportElement mode="Transparent" x="0" y="0" width="51" height="70" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" forecolor="#050505" backcolor="#FFFFFF" uuid="388ca0ab-4536-4d8d-9abc-2f87839de5f4">
+										<property name="com.jaspersoft.studio.unit.x" value="px"/>
+										<property name="com.jaspersoft.studio.unit.y" value="px"/>
+										<property name="com.jaspersoft.studio.unit.width" value="px"/>
+										<printWhenExpression><![CDATA[$V{PAGE_NUMBER}==1]]></printWhenExpression>
+									</reportElement>
+									<box topPadding="1" leftPadding="1" bottomPadding="1" rightPadding="1">
+										<pen lineWidth="1.0"/>
+									</box>
+									<textElement textAlignment="Center" verticalAlignment="Middle">
+										<font size="11" isBold="true"/>
+									</textElement>
+									<text><![CDATA[Ticket Resolve Date / Time]]></text>
+								</staticText>
+							</jr:columnHeader>
+							<jr:detailCell style="Table_TD" height="70">
+								<textField>
+									<reportElement x="0" y="0" width="51" height="70" uuid="18bf66cc-829d-418c-acc9-2aee34cdffcb"/>
+									<textElement textAlignment="Center" verticalAlignment="Middle"/>
+									<textFieldExpression><![CDATA[$F{msg_deueue_datetime}]]></textFieldExpression>
+								</textField>
+							</jr:detailCell>
+						</jr:column>
+						<jr:column width="51" uuid="b46f4e7b-dfd5-4d23-9796-3d815b57ca1c">
+							<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column14"/>
+							<jr:columnHeader style="Table_CH" height="70" rowSpan="1">
+								<staticText>
+									<reportElement mode="Transparent" x="0" y="0" width="51" height="70" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" forecolor="#050505" backcolor="#FFFFFF" uuid="68cafaa0-5229-47f4-9c1a-d71b807b2baf">
+										<property name="com.jaspersoft.studio.unit.x" value="px"/>
+										<property name="com.jaspersoft.studio.unit.y" value="px"/>
+										<property name="com.jaspersoft.studio.unit.width" value="px"/>
+										<printWhenExpression><![CDATA[$V{PAGE_NUMBER}==1]]></printWhenExpression>
+									</reportElement>
+									<box topPadding="1" leftPadding="1" bottomPadding="1" rightPadding="1">
+										<pen lineWidth="1.0"/>
+									</box>
+									<textElement textAlignment="Center" verticalAlignment="Middle">
+										<font size="11" isBold="true"/>
+									</textElement>
+									<text><![CDATA[Resolution TAT]]></text>
+								</staticText>
+							</jr:columnHeader>
+							<jr:detailCell style="Table_TD" height="70">
+								<textField>
+									<reportElement x="0" y="0" width="51" height="70" uuid="101925eb-1679-4b0a-ad5f-302b1ebb2919"/>
+									<textElement textAlignment="Center" verticalAlignment="Middle"/>
+									<textFieldExpression><![CDATA[$F{Resolution TAT}]]></textFieldExpression>
+								</textField>
+							</jr:detailCell>
+						</jr:column>
+						<jr:column width="51" uuid="0581b673-d44d-427b-8311-b639ca335722">
+							<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column15"/>
+							<jr:columnHeader style="Table_CH" height="70" rowSpan="1">
+								<staticText>
+									<reportElement mode="Transparent" x="0" y="0" width="51" height="70" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" forecolor="#050505" backcolor="#FFFFFF" uuid="dd21fe07-3b41-4a07-ba06-ea20d1651fec">
+										<property name="com.jaspersoft.studio.unit.x" value="px"/>
+										<property name="com.jaspersoft.studio.unit.y" value="px"/>
+										<property name="com.jaspersoft.studio.unit.width" value="px"/>
+										<printWhenExpression><![CDATA[$V{PAGE_NUMBER}==1]]></printWhenExpression>
+									</reportElement>
+									<box topPadding="1" leftPadding="1" bottomPadding="1" rightPadding="1">
+										<pen lineWidth="1.0"/>
+									</box>
+									<textElement textAlignment="Center" verticalAlignment="Middle">
+										<font size="11" isBold="true"/>
+									</textElement>
+									<text><![CDATA[Closure TAT]]></text>
+								</staticText>
+							</jr:columnHeader>
+							<jr:detailCell style="Table_TD" height="70">
+								<textField>
+									<reportElement x="0" y="0" width="51" height="70" uuid="d958149b-7f76-4c4f-9774-c4a275b732b0"/>
+									<textElement textAlignment="Center" verticalAlignment="Middle"/>
+									<textFieldExpression><![CDATA[($F{msg_status_YN}.equals("C")  ?  $F{Closure TAT} : "Null")]]></textFieldExpression>
+								</textField>
+							</jr:detailCell>
+						</jr:column>
+						<jr:column width="52" uuid="1003945b-2580-4e6c-911b-fe0d52cb0499">
+							<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column16"/>
+							<jr:columnHeader style="Table_CH" height="70" rowSpan="1">
+								<staticText>
+									<reportElement mode="Transparent" x="0" y="0" width="52" height="70" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" forecolor="#050505" backcolor="#FFFFFF" uuid="5435f6a4-eab3-45c3-af8a-4eaeb1134966">
+										<property name="com.jaspersoft.studio.unit.x" value="px"/>
+										<property name="com.jaspersoft.studio.unit.y" value="px"/>
+										<property name="com.jaspersoft.studio.unit.width" value="px"/>
+										<printWhenExpression><![CDATA[$V{PAGE_NUMBER}==1]]></printWhenExpression>
+									</reportElement>
+									<box topPadding="1" leftPadding="1" bottomPadding="1" rightPadding="1">
+										<pen lineWidth="1.0"/>
+									</box>
+									<textElement textAlignment="Center" verticalAlignment="Middle">
+										<font size="11" isBold="true"/>
+									</textElement>
+									<text><![CDATA[Qfix Category]]></text>
+								</staticText>
+							</jr:columnHeader>
+							<jr:detailCell style="Table_TD" height="70">
+								<textField>
+									<reportElement x="0" y="0" width="52" height="70" uuid="433aaf5a-c1c6-4589-970d-f65c96eea578"/>
+									<textElement textAlignment="Center" verticalAlignment="Middle"/>
+									<textFieldExpression><![CDATA[$F{qfix_category}]]></textFieldExpression>
+								</textField>
+							</jr:detailCell>
+						</jr:column>
+					</jr:columnGroup>
+					<jr:column width="40" uuid="b7083c34-3243-469f-b323-5eb307fa3b12">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column17"/>
+						<jr:columnHeader style="Table_CH" height="70" rowSpan="1">
+							<property name="com.jaspersoft.studio.layout" value="com.jaspersoft.studio.editor.layout.HorizontalRowLayout"/>
+							<staticText>
+								<reportElement mode="Transparent" x="0" y="0" width="40" height="70" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" forecolor="#050505" backcolor="#FFFFFF" uuid="8cbc8893-6069-4bf2-b3d5-782e270eeea6">
+									<property name="com.jaspersoft.studio.unit.x" value="px"/>
+									<property name="com.jaspersoft.studio.unit.y" value="px"/>
+									<property name="com.jaspersoft.studio.unit.width" value="px"/>
+									<printWhenExpression><![CDATA[$V{PAGE_NUMBER}==1]]></printWhenExpression>
+								</reportElement>
+								<box topPadding="1" leftPadding="1" bottomPadding="1" rightPadding="1">
+									<pen lineWidth="1.0"/>
+								</box>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font size="11" isBold="true"/>
+								</textElement>
+								<text><![CDATA[User feedback rating]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table_TD" height="70">
+							<textField>
+								<reportElement x="0" y="0" width="40" height="70" uuid="00a054f8-e926-4d9a-93e6-3d95baec0810"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle"/>
+								<textFieldExpression><![CDATA[$F{csat_rating}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="40" uuid="5256b20f-ea0e-4009-81f1-f5ce197787ff">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column18"/>
+						<jr:columnHeader style="Table_CH" height="70" rowSpan="1">
+							<staticText>
+								<reportElement mode="Transparent" x="0" y="0" width="40" height="70" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" forecolor="#050505" backcolor="#FFFFFF" uuid="b01039d0-65b1-4338-8e02-f693816e83b9">
+									<property name="com.jaspersoft.studio.unit.x" value="px"/>
+									<property name="com.jaspersoft.studio.unit.y" value="px"/>
+									<property name="com.jaspersoft.studio.unit.width" value="px"/>
+									<printWhenExpression><![CDATA[$V{PAGE_NUMBER}==1]]></printWhenExpression>
+								</reportElement>
+								<box topPadding="1" leftPadding="1" bottomPadding="1" rightPadding="1">
+									<pen lineWidth="1.0"/>
+								</box>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font size="11" isBold="true"/>
+								</textElement>
+								<text><![CDATA[Rating]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table_TD" height="70">
+							<textField>
+								<reportElement x="0" y="0" width="40" height="70" uuid="07f49920-ba01-49c4-beb3-c74f18ee2c84"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle"/>
+								<textFieldExpression><![CDATA[$F{csat_rating_mean}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+				</jr:table>
+			</componentElement>
+		</band>
+	</detail>
+</jasperReport>

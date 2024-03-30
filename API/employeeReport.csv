@@ -1,0 +1,350 @@
+,,,,,,,Total Ticket Raised Summary,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,"February 13, 2023",
+,Start Date-,,,,,,,,,,,,,,,,,,,
+,,,,,End Date,,,,,,,,,,,,,,,
+,,,2022-01-01,,,,,,2023-01-01,,,,,,,,,,,
+System User Name,,System Serial Number,,System IP Address,,MBD Serial Number,,System Hostname ,,System Make,Model,Ticket ID,Ticket Raise Date / Time,Qfix Description,Ticket Status,Ticket Close Date / Time,Ticket Resolve Date / Time,Resolution TAT,Closure TAT,Qfix Category
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,1,"25/11/22, 1:53 pm",Disk cleanup,Closed,"04/02/23, 5:16 pm","10/12/22, 12:21 pm",358:27:53,Null,System realted
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,8,"26/11/22, 10:27 am",Disk cleanup,Resolved,null,"10/12/22, 12:21 pm",337:53:07,Null,System realted
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,9,"26/11/22, 10:29 am",Install WINRAR,Resolved,null,"10/12/22, 12:19 pm",337:50:33,Null,Software issues
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,10,"26/11/22, 12:35 pm",Install WINRAR,Resolved,null,"10/12/22, 12:19 pm",335:44:10,Null,Software issues
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,11,"26/11/22, 3:07 pm",Disk cleanup,Resolved,null,"10/12/22, 12:21 pm",333:13:38,Null,System realted
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,12,"26/11/22, 3:08 pm",Install WINRAR,Resolved,null,"10/12/22, 12:19 pm",333:10:45,Null,Software issues
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,13,"26/11/22, 3:29 pm",Uninstall WINRAR,Resolved,null,"10/12/22, 12:11 pm",332:42:21,Null,Software issues
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,14,"26/11/22, 3:29 pm",Install WINRAR,Resolved,null,"10/12/22, 12:19 pm",332:49:45,Null,Software issues
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,15,"26/11/22, 3:30 pm",Repair WINRAR,Resolved,null,"10/12/22, 12:14 pm",332:43:27,Null,Software repair issues
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,16,"26/11/22, 4:04 pm",Install ADOBE,Resolved,null,"10/12/22, 12:19 pm",332:15:06,Null,Software issues
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,17,"26/11/22, 4:10 pm",Install SONIC WALL VPN,Resolved,null,"10/12/22, 12:19 pm",332:09:03,Null,Software issues
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,18,"26/11/22, 4:16 pm",Uninstall ADOBE,Resolved,null,"10/12/22, 12:11 pm",331:54:27,Null,Software issues
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,19,"26/11/22, 4:19 pm",Uninstall SONIC WALL VPN,Resolved,null,"10/12/22, 12:11 pm",331:52:16,Null,Software issues
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,20,"26/11/22, 4:20 pm",Repair TEAM VIEWER,Resolved,null,"10/12/22, 12:14 pm",331:54:08,Null,Software repair issues
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,21,"26/11/22, 4:22 pm",Disk cleanup,Resolved,null,"10/12/22, 12:21 pm",331:58:46,Null,System realted
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,22,"26/11/22, 4:23 pm",Disk cleanup,Resolved,null,"10/12/22, 12:21 pm",331:57:52,Null,System realted
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,23,"26/11/22, 4:25 pm",Disk cleanup,Resolved,null,"10/12/22, 12:21 pm",331:56:04,Null,System realted
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,24,"26/11/22, 4:26 pm",Outlook2007,Resolved,null,"10/12/22, 12:42 pm",332:16:16,Null,Email issues
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,25,"26/11/22, 4:27 pm",Outlook2007,Resolved,null,"10/12/22, 12:42 pm",332:15:07,Null,Email issues
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,26,"26/11/22, 4:28 pm",Outlook2007,Resolved,null,"10/12/22, 12:42 pm",332:14:10,Null,Email issues
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,27,"26/11/22, 4:31 pm",Outlook2007,Resolved,null,"10/12/22, 12:42 pm",332:10:52,Null,Email issues
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,28,"26/11/22, 4:32 pm",Outlook2007,Resolved,null,"10/12/22, 12:42 pm",332:10:13,Null,Email issues
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,29,"26/11/22, 4:37 pm",Outlook2007,Resolved,null,"10/12/22, 12:28 pm",331:51:10,Null,null
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,30,"26/11/22, 4:38 pm",Outlook2007,Resolved,null,"10/12/22, 12:42 pm",332:03:52,Null,Email issues
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,31,"26/11/22, 4:44 pm",Outlook2013,Resolved,null,"26/11/22, 4:44 pm",00:00:18,Null,Email issues
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,32,"26/11/22, 6:02 pm",Install ONE DRIVE,Resolved,null,"10/12/22, 12:19 pm",330:17:23,Null,Software issues
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,33,"26/11/22, 6:04 pm",Install SONIC WALL VPN,Resolved,null,"10/12/22, 12:19 pm",330:15:04,Null,Software issues
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,34,"26/11/22, 6:07 pm",Uninstall SONIC WALL VPN,Resolved,null,"10/12/22, 12:11 pm",330:03:59,Null,Software issues
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,35,"26/11/22, 6:08 pm",Repair SONIC WALL VPN,Resolved,null,"10/12/22, 12:14 pm",330:05:27,Null,Software repair issues
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,36,"26/11/22, 6:11 pm",Repair SONIC WALL VPN,Resolved,null,"10/12/22, 12:14 pm",330:02:52,Null,Software repair issues
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,37,"26/11/22, 6:12 pm",Disk cleanup,Resolved,null,"10/12/22, 12:21 pm",330:08:09,Null,System realted
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,38,"26/11/22, 6:14 pm",Disk cleanup,Resolved,null,"10/12/22, 12:21 pm",330:06:21,Null,System realted
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,39,"26/11/22, 6:33 pm",Install TEAM VIEWER,Resolved,null,"10/12/22, 12:19 pm",329:46:07,Null,Software issues
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,40,"26/11/22, 6:36 pm",Install ONE DRIVE,Resolved,null,"10/12/22, 12:19 pm",329:42:40,Null,Software issues
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,41,"26/11/22, 6:38 pm",Uninstall SONIC WALL VPN,Resolved,null,"10/12/22, 12:11 pm",329:32:28,Null,Software issues
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,42,"26/11/22, 6:41 pm",Uninstall WINRAR,Resolved,null,"10/12/22, 12:11 pm",329:29:24,Null,Software issues
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,43,"26/11/22, 6:43 pm",Repair SONIC WALL VPN,Resolved,null,"10/12/22, 12:14 pm",329:30:33,Null,Software repair issues
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,44,"26/11/22, 6:46 pm",Disk cleanup,Resolved,null,"10/12/22, 12:21 pm",329:34:52,Null,System realted
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,73,"27/11/22, 10:19 am",Disk cleanup,Resolved,null,"10/12/22, 12:21 pm",314:01:43,Null,System realted
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,74,"27/11/22, 10:20 am",Disk cleanup,Resolved,null,"10/12/22, 12:21 pm",314:00:52,Null,System realted
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,75,"27/11/22, 10:51 am",Install TEAM VIEWER,Resolved,null,"10/12/22, 12:19 pm",313:28:30,Null,Software issues
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,76,"27/11/22, 10:53 am",Install SONIC WALL VPN,Resolved,null,"10/12/22, 12:19 pm",313:26:11,Null,Software issues
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,77,"27/11/22, 10:56 am",Install TEAM VIEWER,Resolved,null,"10/12/22, 12:19 pm",313:22:40,Null,Software issues
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,78,"27/11/22, 10:59 am",Uninstall TEAM VIEWER,Resolved,null,"10/12/22, 12:11 pm",313:11:53,Null,Software issues
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,79,"27/11/22, 11:01 am",Repair SONIC WALL VPN,Resolved,null,"10/12/22, 12:14 pm",313:12:51,Null,Software repair issues
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,80,"27/11/22, 11:06 am",Disk cleanup,Resolved,null,"10/12/22, 12:21 pm",313:14:36,Null,System realted
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,81,"27/11/22, 11:15 am",Disk cleanup,Resolved,null,"10/12/22, 12:21 pm",313:05:45,Null,System realted
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,82,"27/11/22, 11:17 am",Disk cleanup,Resolved,null,"10/12/22, 12:21 pm",313:03:08,Null,System realted
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,83,"27/11/22, 11:19 am",Disk cleanup,Resolved,null,"10/12/22, 12:21 pm",313:01:26,Null,System realted
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,84,"27/11/22, 11:21 am",Install MS TEAMS,Resolved,null,"10/12/22, 12:19 pm",312:58:33,Null,Software issues
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,85,"27/11/22, 11:22 am",Uninstall MS TEAMS,Resolved,null,"10/12/22, 12:11 pm",312:48:39,Null,Software issues
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,135,"27/11/22, 4:09 pm",Disk cleanup,Resolved,null,"10/12/22, 12:21 pm",308:11:53,Null,System realted
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,136,"27/11/22, 4:10 pm",Outlook2013,Resolved,null,"27/11/22, 10:16 pm",06:05:31,Null,Email issues
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,137,"27/11/22, 4:12 pm",Uninstall ADOBE,Resolved,null,"10/12/22, 12:11 pm",307:59:05,Null,Software issues
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,138,"27/11/22, 4:14 pm",Uninstall ADOBE,Resolved,null,"10/12/22, 12:11 pm",307:57:20,Null,Software issues
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,139,"27/11/22, 4:18 pm",Install WINRAR,Resolved,null,"10/12/22, 12:19 pm",308:00:51,Null,Software issues
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,140,"27/11/22, 4:20 pm",Uninstall WINRAR,Resolved,null,"10/12/22, 12:11 pm",307:50:55,Null,Software issues
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,141,"27/11/22, 4:22 pm",Uninstall ADOBE,Resolved,null,"10/12/22, 12:11 pm",307:48:24,Null,Software issues
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,142,"27/11/22, 4:25 pm",Outlook2013,Resolved,null,"27/11/22, 10:16 pm",05:51:11,Null,Email issues
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,143,"27/11/22, 4:28 pm",Outlook2013,Resolved,null,"27/11/22, 10:16 pm",05:47:54,Null,Email issues
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,144,"27/11/22, 4:40 pm",Outlook2013,Resolved,null,"27/11/22, 10:16 pm",05:36:00,Null,Email issues
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,145,"27/11/22, 4:42 pm",Outlook2013,Resolved,null,"27/11/22, 10:16 pm",05:33:49,Null,Email issues
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,146,"27/11/22, 4:44 pm",Outlook2013,Resolved,null,"27/11/22, 10:16 pm",05:31:27,Null,Email issues
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,147,"27/11/22, 4:53 pm",Install WINRAR,Resolved,null,"10/12/22, 12:19 pm",307:25:51,Null,Software issues
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,148,"27/11/22, 5:01 pm",Uninstall WINRAR,Resolved,null,"10/12/22, 12:11 pm",307:10:20,Null,Software issues
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,149,"27/11/22, 5:13 pm",Install ANYDESK,Resolved,null,"10/12/22, 12:19 pm",307:06:28,Null,Software issues
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,150,"27/11/22, 5:14 pm",Install MS TEAMS,Resolved,null,"10/12/22, 12:19 pm",307:05:33,Null,Software issues
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,151,"27/11/22, 5:14 pm",Install MS TEAMS,Resolved,null,"10/12/22, 12:19 pm",307:05:24,Null,Software issues
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,152,"27/11/22, 5:38 pm",Outlook2007,Resolved,null,"10/12/22, 12:42 pm",307:03:54,Null,Email issues
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,153,"27/11/22, 5:39 pm",Outlook2007,Resolved,null,"10/12/22, 12:41 pm",307:01:46,Null,Email issues
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,154,"27/11/22, 5:39 pm",Outlook2007,Resolved,null,"10/12/22, 12:41 pm",307:01:35,Null,Email issues
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,155,"27/11/22, 5:40 pm",VPN Configuration,Resolved,null,"10/12/22, 12:42 pm",307:02:21,Null,null
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,156,"27/11/22, 5:40 pm",Antivirus Update,Resolved,null,"10/12/22, 12:43 pm",307:02:20,Null,null
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,157,"27/11/22, 5:51 pm",HP LaserJet Professional CP1025,Resolved,null,"27/11/22, 7:22 pm",01:31:07,Null,Printer realted
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,158,"27/11/22, 5:53 pm",HP_M1130,Resolved,null,"27/11/22, 7:22 pm",01:29:26,Null,Printer realted
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,159,"27/11/22, 5:53 pm",ljP1000_P1500-HB-pnp,Resolved,null,"27/11/22, 7:22 pm",01:29:22,Null,Printer realted
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,160,"27/11/22, 5:53 pm",HP LaserJet Professional M1136 MFP,Resolved,null,"27/11/22, 7:21 pm",01:28:00,Null,Printer realted
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,161,"27/11/22, 6:39 pm",HP_M1130,Resolved,null,"27/11/22, 7:22 pm",00:43:32,Null,Printer realted
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,162,"27/11/22, 6:39 pm",HP LaserJet Professional CP1025,Resolved,null,"27/11/22, 7:22 pm",00:43:26,Null,Printer realted
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,163,"27/11/22, 6:40 pm",HP LaserJet Professional CP1025,Resolved,null,"27/11/22, 7:22 pm",00:42:57,Null,Printer realted
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,165,"27/11/22, 7:14 pm",Install SONIC WALL VPN,Resolved,null,"10/12/22, 12:19 pm",305:05:09,Null,Software issues
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,166,"27/11/22, 7:24 pm",Install SONIC WALL VPN,Resolved,null,"10/12/22, 12:19 pm",304:55:05,Null,Software issues
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,167,"27/11/22, 7:25 pm",VPN Configuration,Resolved,null,"10/12/22, 12:42 pm",305:17:40,Null,null
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,168,"27/11/22, 9:31 pm",Install WINRAR,Closed,"04/02/23, 11:05 am","10/12/22, 12:19 pm",302:47:51,Null,Software issues
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,169,"27/11/22, 9:37 pm",Install WINRAR,Closed,"04/02/23, 10:42 am","10/12/22, 12:19 pm",302:41:34,Null,Software issues
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,170,"27/11/22, 9:40 pm",Install WINRAR,Resolved,"01/12/22, 11:39 am","10/12/22, 12:19 pm",302:39:05,Null,Software issues
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,171,"27/11/22, 9:56 pm",Uninstall WINRAR,Resolved,null,"10/12/22, 12:11 pm",302:14:28,Null,Software issues
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,172,"27/11/22, 9:57 pm",Uninstall ANYDESK,Resolved,null,"10/12/22, 12:11 pm",302:13:32,Null,Software issues
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,173,"27/11/22, 9:59 pm",Uninstall TEAM VIEWER,Resolved,null,"10/12/22, 12:11 pm",302:12:12,Null,Software issues
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,174,"27/11/22, 10:01 pm",Uninstall SONIC WALL VPN,Resolved,null,"10/12/22, 12:11 pm",302:09:29,Null,Software issues
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,175,"27/11/22, 10:05 pm",Install SONIC WALL VPN,Resolved,null,"10/12/22, 12:19 pm",302:14:26,Null,Software issues
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,176,"27/11/22, 10:06 pm",VPN Configuration,Resolved,null,"10/12/22, 12:42 pm",302:36:26,Null,null
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,177,"27/11/22, 10:08 pm",VPN Configuration,Resolved,null,"10/12/22, 12:42 pm",302:34:36,Null,null
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,178,"27/11/22, 10:10 pm",VPN Configuration,Resolved,null,"10/12/22, 12:42 pm",302:32:38,Null,null
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,179,"27/11/22, 10:14 pm",Outlook2013,Resolved,null,"27/11/22, 10:16 pm",00:02:15,Null,Email issues
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,180,"27/11/22, 10:16 pm",Outlook2013,Resolved,null,"27/11/22, 10:16 pm",00:00:16,Null,Email issues
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,181,"27/11/22, 10:18 pm",Antivirus Update,Resolved,"01/12/22, 11:18 am","10/12/22, 12:43 pm",302:24:21,Null,null
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,182,"28/11/22, 8:55 am",Install WINRAR,Resolved,"01/12/22, 11:28 am","10/12/22, 12:19 pm",291:24:32,Null,Software issues
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,183,"28/11/22, 8:55 am",Install FIREFOX,Resolved,null,"10/12/22, 12:19 pm",291:23:49,Null,Software issues
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,184,"28/11/22, 8:57 am",Install ANYDESK,Resolved,null,"10/12/22, 12:19 pm",291:22:05,Null,Software issues
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,185,"28/11/22, 9:01 am",Disk cleanup,Closed,"04/02/23, 5:16 pm","10/12/22, 12:21 pm",291:19:24,Null,System realted
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,186,"28/11/22, 9:05 am",Install WINRAR,Resolved,"01/12/22, 11:40 am","10/12/22, 12:19 pm",291:13:35,Null,Software issues
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,187,"28/11/22, 9:09 am",Install MS TEAMS,Resolved,null,"10/12/22, 12:19 pm",291:09:50,Null,Software issues
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,188,"28/11/22, 9:09 am",Install SONIC WALL VPN,Resolved,null,"10/12/22, 12:19 pm",291:09:39,Null,Software issues
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,189,"30/11/22, 1:55 pm",Install WINRAR,Resolved,"01/12/22, 12:48 pm","10/12/22, 12:19 pm",238:24:22,Null,Software issues
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,190,"30/11/22, 2:52 pm",Install WINRAR,Resolved,"01/12/22, 12:46 pm","10/12/22, 12:19 pm",237:26:48,Null,Software issues
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,191,"01/12/22, 11:50 am",Install WINRAR,Resolved,"01/12/22, 12:39 pm","10/12/22, 12:19 pm",216:29:26,Null,Software issues
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,192,"01/12/22, 11:52 am",Install WINRAR,Resolved,"01/12/22, 12:38 pm","10/12/22, 12:19 pm",216:26:56,Null,Software issues
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,193,"01/12/22, 12:32 pm",Install WINRAR,Resolved,"01/12/22, 12:36 pm","10/12/22, 12:19 pm",215:46:59,Null,Software issues
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,198,"10/12/22, 12:08 pm",Repair WINRAR,Resolved,null,"10/12/22, 12:14 pm",00:05:59,Null,Software repair issues
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,199,"10/12/22, 12:11 pm",Uninstall SONIC WALL VPN,Resolved,null,"10/12/22, 12:11 pm",00:00:19,Null,Software issues
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,200,"10/12/22, 12:12 pm",Repair WINRAR,Resolved,null,"10/12/22, 12:14 pm",00:02:03,Null,Software repair issues
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,201,"10/12/22, 12:13 pm",Repair ZOOM,Resolved,null,"10/12/22, 12:14 pm",00:01:10,Null,Software repair issues
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,202,"10/12/22, 12:13 pm",Repair TEAM VIEWER,Resolved,null,"10/12/22, 12:14 pm",00:00:19,Null,Software repair issues
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,203,"10/12/22, 12:14 pm",Install ZOOM,Resolved,null,"10/12/22, 12:19 pm",00:04:39,Null,Software issues
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,204,"10/12/22, 12:18 pm",Install ZOOM,Resolved,null,"10/12/22, 12:19 pm",00:01:27,Null,Software issues
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,205,"10/12/22, 12:19 pm",Install WINRAR,Resolved,null,"10/12/22, 12:19 pm",00:00:18,Null,Software issues
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,206,"10/12/22, 12:20 pm",Disk cleanup,Resolved,null,"10/12/22, 12:21 pm",00:00:48,Null,System realted
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,207,"10/12/22, 12:20 pm",Disk cleanup,Resolved,null,"10/12/22, 12:21 pm",00:00:19,Null,System realted
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,208,"10/12/22, 12:21 pm",Outlook2007,Resolved,null,"10/12/22, 12:42 pm",00:20:34,Null,Email issues
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,209,"10/12/22, 12:22 pm",Outlook2007,Resolved,null,"10/12/22, 12:42 pm",00:20:08,Null,Email issues
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,210,"10/12/22, 12:22 pm",Outlook2007,Resolved,null,"10/12/22, 12:42 pm",00:19:43,Null,Email issues
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,211,"10/12/22, 12:23 pm",Outlook2007,Resolved,null,"10/12/22, 12:42 pm",00:19:14,Null,Email issues
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,212,"10/12/22, 12:26 pm",Outlook2007,Resolved,null,"10/12/22, 12:42 pm",00:16:02,Null,Email issues
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,213,"10/12/22, 12:27 pm",Outlook2007,Resolved,null,"10/12/22, 12:28 pm",00:00:57,Null,null
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,214,"10/12/22, 12:28 pm",Outlook2007,Resolved,null,"10/12/22, 12:28 pm",00:00:16,Null,null
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,215,"10/12/22, 12:29 pm",Outlook2007,Resolved,null,"10/12/22, 12:41 pm",00:11:33,Null,Email issues
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,216,"10/12/22, 12:31 pm",Outlook2007,Resolved,null,"10/12/22, 12:41 pm",00:09:32,Null,Email issues
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,217,"10/12/22, 12:34 pm",VPN Configuration,Resolved,null,"10/12/22, 12:42 pm",00:08:13,Null,null
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,218,"10/12/22, 12:35 pm",Antivirus Update,Resolved,null,"10/12/22, 12:43 pm",00:07:21,Null,null
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,219,"10/12/22, 12:36 pm",Outlook2007,Resolved,null,"10/12/22, 12:41 pm",00:04:43,Null,Email issues
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,220,"10/12/22, 12:38 pm",Outlook2007,Resolved,null,"10/12/22, 12:41 pm",00:03:07,Null,Email issues
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,221,"10/12/22, 12:40 pm",Outlook2007,Resolved,null,"10/12/22, 12:41 pm",00:01:06,Null,Email issues
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,222,"10/12/22, 12:40 pm",Outlook2007,Resolved,null,"10/12/22, 12:41 pm",00:00:17,Null,Email issues
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,223,"10/12/22, 12:41 pm",Outlook2007,Resolved,null,"10/12/22, 12:42 pm",00:00:19,Null,Email issues
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,224,"10/12/22, 12:42 pm",VPN Configuration,Resolved,null,"10/12/22, 12:42 pm",00:00:15,Null,null
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,225,"10/12/22, 12:43 pm",Antivirus Update,Resolved,null,"10/12/22, 12:43 pm",00:00:19,Null,null
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,297,"20/12/22, 4:58 pm",Disk cleanup,Resolved,null,"20/12/22, 4:58 pm",00:00:26,Null,System realted
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,299,"20/12/22, 5:07 pm",Disk cleanup,Resolved,null,"20/12/22, 5:07 pm",00:00:26,Null,System realted
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,300,"20/12/22, 5:08 pm",Disk cleanup,Resolved,null,"20/12/22, 5:08 pm",00:00:16,Null,System realted
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,301,"20/12/22, 5:09 pm",Disk cleanup,Resolved,null,"20/12/22, 5:09 pm",00:00:25,Null,System realted
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,302,"20/12/22, 7:44 pm",Install SONIC WALL VPN,Resolved,null,"20/12/22, 7:44 pm",00:00:16,Null,Software issues
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,303,"20/12/22, 7:46 pm",Install ZOOM,Resolved,null,"20/12/22, 7:46 pm",00:00:23,Null,Software issues
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,304,"20/12/22, 7:56 pm",Uninstall ZOOM,Resolved,null,"20/12/22, 7:56 pm",00:00:23,Null,Software issues
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,305,"20/12/22, 7:57 pm",Install ZOOM,Resolved,null,"20/12/22, 7:58 pm",00:00:31,Null,Software issues
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,306,"20/12/22, 8:00 pm",Install ADOBE,Resolved,null,"20/12/22, 8:00 pm",00:00:38,Null,Software issues
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,307,"20/12/22, 8:03 pm",Repair ZOOM,Resolved,null,"20/12/22, 8:03 pm",00:00:28,Null,Software repair issues
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,308,"20/12/22, 8:04 pm",Install SONIC WALL VPN,Resolved,null,"20/12/22, 8:05 pm",00:00:17,Null,Software issues
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,309,"20/12/22, 8:06 pm",Install TEAM VIEWER,Resolved,null,"20/12/22, 8:07 pm",00:00:27,Null,Software issues
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,310,"20/12/22, 8:10 pm",Disk cleanup,Resolved,null,"20/12/22, 8:10 pm",00:00:13,Null,System realted
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,311,"20/12/22, 8:10 pm",Disk cleanup,Resolved,null,"20/12/22, 8:11 pm",00:00:21,Null,System realted
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,312,"20/12/22, 8:11 pm",Outlook2007,Resolved,null,"20/12/22, 8:11 pm",00:00:15,Null,Email issues
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,313,"20/12/22, 8:12 pm",Outlook2007,Resolved,null,"20/12/22, 8:12 pm",00:00:10,Null,Email issues
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,314,"20/12/22, 8:13 pm",Outlook2007,Resolved,null,"20/12/22, 8:13 pm",00:00:15,Null,Email issues
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,315,"20/12/22, 8:17 pm",Outlook2007,Resolved,null,"20/12/22, 8:18 pm",00:00:15,Null,Email issues
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,316,"20/12/22, 8:18 pm",Outlook2007,Resolved,null,"20/12/22, 8:18 pm",00:00:30,Null,Email issues
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,317,"20/12/22, 8:21 pm",Outlook2007,Resolved,null,"20/12/22, 8:21 pm",00:00:17,Null,Email issues
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,318,"20/12/22, 8:22 pm",Outlook2007,Resolved,null,"20/12/22, 8:23 pm",00:00:18,Null,Email issues
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,319,"20/12/22, 8:23 pm",Outlook2007,Resolved,null,"20/12/22, 8:24 pm",00:00:16,Null,Email issues
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,320,"20/12/22, 8:26 pm",Outlook2007,Resolved,null,"20/12/22, 8:27 pm",00:00:18,Null,Email issues
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,321,"20/12/22, 8:28 pm",Outlook2007,Resolved,null,"20/12/22, 8:28 pm",00:00:16,Null,Email issues
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,322,"20/12/22, 8:29 pm",Outlook2013,Resolved,null,"20/12/22, 8:29 pm",00:00:17,Null,Email issues
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,323,"20/12/22, 8:31 pm",Outlook2013,Resolved,null,"20/12/22, 8:31 pm",00:00:17,Null,Email issues
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,324,"20/12/22, 8:32 pm",Outlook2013,Resolved,null,"20/12/22, 8:32 pm",00:00:14,Null,Email issues
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,325,"20/12/22, 8:34 pm",Outlook2013,Resolved,null,"20/12/22, 8:34 pm",00:00:15,Null,Email issues
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,326,"20/12/22, 8:37 pm",Outlook2013,Resolved,null,"20/12/22, 8:37 pm",00:00:16,Null,Email issues
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,327,"20/12/22, 8:39 pm",VPN Configuration,Resolved,null,"20/12/22, 8:39 pm",00:00:15,Null,null
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,328,"20/12/22, 8:41 pm",Antivirus Update,Resolved,null,"20/12/22, 8:41 pm",00:00:18,Null,null
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,329,"20/12/22, 8:45 pm",VPN Configuration,Resolved,null,"20/12/22, 8:45 pm",00:00:18,Null,null
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,334,"22/12/22, 1:10 pm",Install SONIC WALL VPN,Closed,"28/12/22, 5:14 pm","22/12/22, 1:10 pm",00:00:22,Null,Software issues
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,340,"24/12/22, 10:57 am",HP_M1130,Resolved,null,"24/12/22, 10:58 am",00:00:56,Null,Printer realted
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,341,"24/12/22, 11:03 am",Install SONIC WALL VPN,Resolved,null,"24/12/22, 11:03 am",00:00:17,Null,Software issues
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,342,"24/12/22, 11:05 am",Install TEAM VIEWER,Resolved,null,"24/12/22, 11:05 am",00:00:18,Null,Software issues
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,343,"24/12/22, 11:33 am",HP_M1130,Resolved,null,"24/12/22, 11:34 am",00:01:03,Null,Printer realted
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,344,"24/12/22, 11:34 am",HP LaserJet Professional CP1025,Resolved,null,"24/12/22, 11:57 am",00:23:35,Null,Printer realted
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,345,"24/12/22, 12:03 pm",Disk cleanup,Resolved,null,"24/12/22, 12:04 pm",00:00:17,Null,System realted
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,352,"23/12/22, 4:08 pm",Disk cleanup,Resolved,null,"24/12/22, 4:08 pm",23:59:56,Null,System realted
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,353,"23/12/22, 4:08 pm",Disk cleanup,Resolved,null,"24/12/22, 4:08 pm",23:59:56,Null,System realted
+Mahesh-AFS,,CNU315BCBS,,192.168.1.248,,CNU315BCBS,,Mahesh,,Hewlett-Packard,HP EliteBook 2570p,358,"24/12/22, 5:08 pm",Disk cleanup,Closed,"27/12/22, 2:23 pm","23/12/22, 5:08 pm",-23:59:35,Null,System realted
+Mahesh-AFS,,CNU315BCBS,,192.168.1.248,,CNU315BCBS,,Mahesh,,Hewlett-Packard,HP EliteBook 2570p,359,"24/12/22, 5:09 pm",Disk cleanup,Closed,"27/12/22, 2:24 pm","23/12/22, 5:09 pm",-23:59:37,Null,System realted
+Prabhat Shukla,,9X89102,,192.168.1.138,,9X89102,,Prabhat-Lap,,Dell Inc.,Latitude E5430 non-vPro,360,"24/12/22, 5:13 pm",Disk cleanup,Closed,"23/01/23, 11:19 am","23/12/22, 5:13 pm",-23:59:31,Null,System realted
+Prabhat Shukla,,9X89102,,192.168.1.138,,9X89102,,Prabhat-Lap,,Dell Inc.,Latitude E5430 non-vPro,361,"24/12/22, 5:17 pm",Disk cleanup,Closed,"23/01/23, 11:19 am","23/12/22, 5:17 pm",-23:59:37,Null,System realted
+Mahesh-AFS,,CNU315BCBS,,192.168.1.248,,CNU315BCBS,,Mahesh,,Hewlett-Packard,HP EliteBook 2570p,362,"24/12/22, 5:20 pm",Install SONIC WALL VPN,Closed,"27/12/22, 2:24 pm","23/12/22, 5:20 pm",-23:59:35,Null,Software issues
+Prabhat Shukla,,9X89102,,192.168.1.138,,9X89102,,Prabhat-Lap,,Dell Inc.,Latitude E5430 non-vPro,363,"24/12/22, 5:30 pm",Disk cleanup,Closed,"23/01/23, 11:19 am","23/12/22, 5:30 pm",-23:59:36,Null,System realted
+Mahesh-AFS,,CNU315BCBS,,192.168.1.248,,CNU315BCBS,,Mahesh,,Hewlett-Packard,HP EliteBook 2570p,364,"24/12/22, 5:31 pm",Disk cleanup,Closed,"27/12/22, 2:25 pm","23/12/22, 5:31 pm",-23:59:38,Null,System realted
+Prabhat Shukla,,9X89102,,192.168.1.138,,9X89102,,Prabhat-Lap,,Dell Inc.,Latitude E5430 non-vPro,365,"24/12/22, 5:31 pm",Disk cleanup,Closed,"23/01/23, 11:19 am","23/12/22, 5:32 pm",-23:59:39,Null,System realted
+Prabhat Shukla,,9X89102,,192.168.1.138,,9X89102,,Prabhat-Lap,,Dell Inc.,Latitude E5430 non-vPro,366,"24/12/22, 5:32 pm",Disk cleanup,Closed,"23/01/23, 11:20 am","23/12/22, 5:32 pm",-23:59:39,Null,System realted
+Mahesh-AFS,,CNU315BCBS,,192.168.1.248,,CNU315BCBS,,Mahesh,,Hewlett-Packard,HP EliteBook 2570p,367,"24/12/22, 5:32 pm",Disk cleanup,Closed,"27/12/22, 2:25 pm","23/12/22, 5:33 pm",-23:59:38,Null,System realted
+Prabhat Shukla,,9X89102,,192.168.1.138,,9X89102,,Prabhat-Lap,,Dell Inc.,Latitude E5430 non-vPro,368,"24/12/22, 5:33 pm",Install SONIC WALL VPN,Closed,"23/01/23, 11:20 am","23/12/22, 5:33 pm",-23:59:36,Null,Software issues
+Prabhat Shukla,,9X89102,,192.168.1.138,,9X89102,,Prabhat-Lap,,Dell Inc.,Latitude E5430 non-vPro,369,"24/12/22, 5:35 pm",Disk cleanup,Closed,"23/01/23, 11:20 am","23/12/22, 5:35 pm",-23:59:35,Null,System realted
+Prabhat Shukla,,9X89102,,192.168.1.138,,9X89102,,Prabhat-Lap,,Dell Inc.,Latitude E5430 non-vPro,370,"24/12/22, 5:36 pm",Disk cleanup,Closed,"23/01/23, 11:20 am","23/12/22, 5:36 pm",-23:59:38,Null,System realted
+Prabhat Shukla,,9X89102,,192.168.1.138,,9X89102,,Prabhat-Lap,,Dell Inc.,Latitude E5430 non-vPro,371,"24/12/22, 5:39 pm",Install SONIC WALL VPN,Closed,"23/01/23, 11:20 am","23/12/22, 5:39 pm",-23:59:33,Null,Software issues
+Prabhat Shukla,,9X89102,,192.168.1.138,,9X89102,,Prabhat-Lap,,Dell Inc.,Latitude E5430 non-vPro,372,"24/12/22, 5:44 pm",Install WINRAR,Closed,"23/01/23, 11:20 am","23/12/22, 5:45 pm",-23:59:04,Null,Software issues
+Prabhat Shukla,,9X89102,,192.168.1.138,,9X89102,,Prabhat-Lap,,Dell Inc.,Latitude E5430 non-vPro,373,"24/12/22, 5:46 pm",Uninstall WINRAR,Closed,"23/01/23, 11:20 am","23/12/22, 5:47 pm",-23:59:31,Null,Software issues
+Prabhat Shukla,,9X89102,,192.168.1.138,,9X89102,,Prabhat-Lap,,Dell Inc.,Latitude E5430 non-vPro,374,"24/12/22, 5:49 pm",Install ADOBE,Closed,"23/01/23, 11:20 am","23/12/22, 5:51 pm",-23:58:41,Null,Software issues
+Mahesh-AFS,,CNU315BCBS,,192.168.1.248,,CNU315BCBS,,Mahesh,,Hewlett-Packard,HP EliteBook 2570p,375,"24/12/22, 5:50 pm",Disk cleanup,Closed,"27/12/22, 2:26 pm","23/12/22, 5:51 pm",-23:59:38,Null,System realted
+Mahesh-AFS,,CNU315BCBS,,192.168.1.248,,CNU315BCBS,,Mahesh,,Hewlett-Packard,HP EliteBook 2570p,376,"24/12/22, 5:51 pm",Disk cleanup,Closed,"27/12/22, 2:26 pm","23/12/22, 5:52 pm",-23:59:39,Null,System realted
+Mahesh-AFS,,CNU315BCBS,,192.168.1.248,,CNU315BCBS,,Mahesh,,Hewlett-Packard,HP EliteBook 2570p,377,"24/12/22, 5:54 pm",Disk cleanup,Closed,"27/12/22, 2:26 pm","23/12/22, 5:55 pm",-23:59:36,Null,System realted
+Prabhat Shukla,,9X89102,,192.168.1.138,,9X89102,,Prabhat-Lap,,Dell Inc.,Latitude E5430 non-vPro,378,"24/12/22, 5:56 pm",Install WINRAR,Closed,"23/01/23, 11:20 am","23/12/22, 5:56 pm",-23:59:34,Null,Software issues
+Mahesh-AFS,,CNU315BCBS,,192.168.1.248,,CNU315BCBS,,Mahesh,,Hewlett-Packard,HP EliteBook 2570p,379,"24/12/22, 5:59 pm",Disk cleanup,Closed,"27/12/22, 2:26 pm","23/12/22, 5:59 pm",-23:59:16,Null,System realted
+Prabhat Shukla,,9X89102,,192.168.1.138,,9X89102,,Prabhat-Lap,,Dell Inc.,Latitude E5430 non-vPro,380,"24/12/22, 5:59 pm",Install SONIC WALL VPN,Closed,"23/01/23, 11:20 am","23/12/22, 5:59 pm",-23:59:35,Null,Software issues
+Prabhat Shukla,,9X89102,,192.168.1.138,,9X89102,,Prabhat-Lap,,Dell Inc.,Latitude E5430 non-vPro,381,"24/12/22, 6:02 pm",Disk cleanup,Closed,"23/01/23, 11:20 am","23/12/22, 6:02 pm",-23:59:36,Null,System realted
+Mahesh-AFS,,CNU315BCBS,,192.168.1.248,,CNU315BCBS,,Mahesh,,Hewlett-Packard,HP EliteBook 2570p,382,"24/12/22, 6:05 pm",Disk cleanup,Closed,"27/12/22, 2:26 pm","23/12/22, 6:05 pm",-23:59:20,Null,System realted
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,383,"24/12/22, 6:08 pm",Disk cleanup,Resolved,null,"24/12/22, 6:08 pm",00:00:23,Null,System realted
+Prabhat Shukla,,9X89102,,192.168.1.138,,9X89102,,Prabhat-Lap,,Dell Inc.,Latitude E5430 non-vPro,384,"24/12/22, 6:13 pm",Install WINRAR,Closed,"23/01/23, 11:21 am","23/12/22, 6:13 pm",-23:59:31,Null,Software issues
+Prabhat Shukla,,9X89102,,192.168.1.138,,9X89102,,Prabhat-Lap,,Dell Inc.,Latitude E5430 non-vPro,385,"24/12/22, 6:14 pm",Install SONIC WALL VPN,Closed,"23/01/23, 11:21 am","23/12/22, 6:15 pm",-23:59:34,Null,Software issues
+Prabhat Shukla,,9X89102,,192.168.1.138,,9X89102,,Prabhat-Lap,,Dell Inc.,Latitude E5430 non-vPro,386,"24/12/22, 6:17 pm",Uninstall SONIC WALL VPN,Closed,"23/01/23, 11:21 am","23/12/22, 6:17 pm",-23:59:35,Null,Software issues
+Prabhat Shukla,,9X89102,,192.168.1.138,,9X89102,,Prabhat-Lap,,Dell Inc.,Latitude E5430 non-vPro,387,"24/12/22, 6:19 pm",Install SONIC WALL VPN,Closed,"23/01/23, 11:21 am","23/12/22, 6:20 pm",-23:59:33,Null,Software issues
+Prabhat Shukla,,9X89102,,192.168.1.138,,9X89102,,Prabhat-Lap,,Dell Inc.,Latitude E5430 non-vPro,388,"24/12/22, 6:24 pm",Install ZOOM,Closed,"23/01/23, 11:21 am","23/12/22, 6:25 pm",-23:59:18,Null,Software issues
+Rajnish Tripathi,,R90XV3HH,,192.168.29.27,,R90XV3HH,,DESKTOP-9ID2728,,LENOVO,20R3S00G00,394,"24/12/22, 7:02 pm",Disk cleanup,Resolved,null,"23/12/22, 7:02 pm",-23:59:54,Null,System realted
+Rajnish Tripathi,,R90XV3HH,,192.168.29.27,,R90XV3HH,,DESKTOP-9ID2728,,LENOVO,20R3S00G00,395,"24/12/22, 7:06 pm",Disk cleanup,Resolved,null,"23/12/22, 7:06 pm",-23:59:36,Null,System realted
+Rajnish Tripathi,,R90XV3HH,,192.168.29.27,,R90XV3HH,,DESKTOP-9ID2728,,LENOVO,20R3S00G00,396,"24/12/22, 7:07 pm",Disk cleanup,Resolved,null,"23/12/22, 7:07 pm",-23:59:37,Null,System realted
+Rajnish Tripathi,,R90XV3HH,,192.168.29.27,,R90XV3HH,,DESKTOP-9ID2728,,LENOVO,20R3S00G00,397,"24/12/22, 7:09 pm",Disk cleanup,Resolved,null,"23/12/22, 7:09 pm",-23:59:39,Null,System realted
+Rajnish Tripathi,,R90XV3HH,,192.168.29.27,,R90XV3HH,,DESKTOP-9ID2728,,LENOVO,20R3S00G00,398,"24/12/22, 7:34 pm",Disk cleanup,Resolved,null,"23/12/22, 7:35 pm",-23:59:47,Null,System realted
+Rajnish Tripathi,,R90XV3HH,,192.168.29.27,,R90XV3HH,,DESKTOP-9ID2728,,LENOVO,20R3S00G00,399,"24/12/22, 7:35 pm",Install SONIC WALL VPN,Resolved,null,"23/12/22, 7:35 pm",-23:59:46,Null,Software issues
+Rajnish Tripathi,,R90XV3HH,,192.168.29.27,,R90XV3HH,,DESKTOP-9ID2728,,LENOVO,20R3S00G00,400,"24/12/22, 7:37 pm",Install SONIC WALL VPN,Resolved,null,"23/12/22, 7:37 pm",-23:59:43,Null,Software issues
+Mahesh-AFS,,CNU315BCBS,,192.168.1.248,,CNU315BCBS,,Mahesh,,Hewlett-Packard,HP EliteBook 2570p,401,"27/12/22, 10:28 am",Disk cleanup,Closed,"27/12/22, 2:26 pm","26/12/22, 10:28 am",-23:59:34,Null,System realted
+Mahesh-AFS,,CNU315BCBS,,192.168.1.248,,CNU315BCBS,,Mahesh,,Hewlett-Packard,HP EliteBook 2570p,402,"27/12/22, 10:30 am",Disk cleanup,Closed,"27/12/22, 2:26 pm","26/12/22, 10:30 am",-23:59:47,Null,System realted
+Mahesh-AFS,,CNU315BCBS,,192.168.1.248,,CNU315BCBS,,Mahesh,,Hewlett-Packard,HP EliteBook 2570p,403,"27/12/22, 10:31 am",Install SONIC WALL VPN,Closed,"27/12/22, 2:25 pm","26/12/22, 10:31 am",-23:59:42,Null,Software issues
+Mahesh-AFS,,CNU315BCBS,,192.168.1.248,,CNU315BCBS,,Mahesh,,Hewlett-Packard,HP EliteBook 2570p,404,"27/12/22, 10:33 am",Install SONIC WALL VPN,Closed,"27/12/22, 2:25 pm","26/12/22, 10:33 am",-23:59:35,Null,Software issues
+Mahesh-AFS,,CNU315BCBS,,192.168.1.248,,CNU315BCBS,,Mahesh,,Hewlett-Packard,HP EliteBook 2570p,405,"27/12/22, 10:34 am",Install SONIC WALL VPN,Closed,"27/12/22, 2:25 pm","26/12/22, 10:35 am",-23:59:35,Null,Software issues
+Mahesh-AFS,,CNU315BCBS,,192.168.1.248,,CNU315BCBS,,Mahesh,,Hewlett-Packard,HP EliteBook 2570p,406,"27/12/22, 11:02 am",Uninstall SONIC WALL VPN,Closed,"27/12/22, 2:25 pm","26/12/22, 11:02 am",-23:59:31,Null,Software issues
+Mahesh-AFS,,CNU315BCBS,,192.168.1.248,,CNU315BCBS,,Mahesh,,Hewlett-Packard,HP EliteBook 2570p,407,"27/12/22, 11:18 am",Disk cleanup,Closed,"27/12/22, 2:25 pm","26/12/22, 11:18 am",-23:59:33,Null,System realted
+Radhika Singh,,5NQGH92,,192.168.1.158,,5NQGH92,,WS-26,,Dell Inc.,OptiPlex 3020,408,"27/12/22, 11:38 am",Disk cleanup,Closed,"27/12/22, 11:41 am","26/12/22, 11:39 am",-23:59:29,Null,System realted
+Radhika Singh,,5NQGH92,,192.168.1.158,,5NQGH92,,WS-26,,Dell Inc.,OptiPlex 3020,409,"27/12/22, 11:40 am",Install SONIC WALL VPN,Closed,"27/12/22, 11:41 am","26/12/22, 11:40 am",-23:59:30,Null,Software issues
+Radhika Singh,,5NQGH92,,192.168.1.158,,5NQGH92,,WS-26,,Dell Inc.,OptiPlex 3020,410,"27/12/22, 11:40 am",Uninstall SONIC WALL VPN,Closed,"27/12/22, 11:42 am","26/12/22, 11:41 am",-23:59:32,Null,Software issues
+Aafiya,,PK13XMK,,192.168.1.232,,PK13XMK,,Aafan,,LENOVO,24651J5,413,"27/12/22, 11:56 am",Disk cleanup,Resolved,null,"26/12/22, 11:57 am",-23:59:16,Null,System realted
+Rajnish Tripathi,,R90XV3HH,,192.168.29.27,,R90XV3HH,,DESKTOP-9ID2728,,LENOVO,20R3S00G00,414,"27/12/22, 12:03 pm",Install MS TEAMS,Resolved,null,"26/12/22, 12:11 pm",-23:52:15,Null,Software issues
+Rajnish Tripathi,,R90XV3HH,,192.168.29.27,,R90XV3HH,,DESKTOP-9ID2728,,LENOVO,20R3S00G00,415,"27/12/22, 12:04 pm",Install MS TEAMS,Resolved,null,"26/12/22, 12:12 pm",-23:51:07,Null,Software issues
+Rajnish Tripathi,,R90XV3HH,,192.168.29.27,,R90XV3HH,,DESKTOP-9ID2728,,LENOVO,20R3S00G00,416,"27/12/22, 12:04 pm",Install ONE DRIVE,Resolved,null,"26/12/22, 12:14 pm",-23:49:51,Null,Software issues
+Rajnish Tripathi,,R90XV3HH,,192.168.29.27,,R90XV3HH,,DESKTOP-9ID2728,,LENOVO,20R3S00G00,417,"27/12/22, 12:04 pm",Install MS TEAMS,Resolved,null,"26/12/22, 12:15 pm",-23:48:47,Null,Software issues
+Rajnish Tripathi,,R90XV3HH,,192.168.29.27,,R90XV3HH,,DESKTOP-9ID2728,,LENOVO,20R3S00G00,418,"27/12/22, 12:04 pm",Install ZOOM,Resolved,null,"26/12/22, 12:15 pm",-23:48:16,Null,Software issues
+Rajnish Tripathi,,R90XV3HH,,192.168.29.27,,R90XV3HH,,DESKTOP-9ID2728,,LENOVO,20R3S00G00,419,"27/12/22, 12:04 pm",Uninstall ANYDESK,Resolved,null,"26/12/22, 12:16 pm",-23:48:08,Null,Software issues
+Rajnish Tripathi,,R90XV3HH,,192.168.29.27,,R90XV3HH,,DESKTOP-9ID2728,,LENOVO,20R3S00G00,420,"27/12/22, 12:04 pm",Uninstall ANYDESK,Resolved,null,"26/12/22, 12:16 pm",-23:47:49,Null,Software issues
+Rajnish Tripathi,,R90XV3HH,,192.168.29.27,,R90XV3HH,,DESKTOP-9ID2728,,LENOVO,20R3S00G00,421,"27/12/22, 12:04 pm",Uninstall ANYDESK,Resolved,null,"26/12/22, 12:16 pm",-23:47:33,Null,Software issues
+Rajnish Tripathi,,R90XV3HH,,192.168.29.27,,R90XV3HH,,DESKTOP-9ID2728,,LENOVO,20R3S00G00,422,"27/12/22, 12:04 pm",Uninstall ANYDESK,Resolved,null,"26/12/22, 12:17 pm",-23:47:22,Null,Software issues
+Rajnish Tripathi,,R90XV3HH,,192.168.29.27,,R90XV3HH,,DESKTOP-9ID2728,,LENOVO,20R3S00G00,423,"27/12/22, 12:04 pm",Disk cleanup,Resolved,null,"26/12/22, 12:17 pm",-23:47:20,Null,System realted
+Rajnish Tripathi,,R90XV3HH,,192.168.29.27,,R90XV3HH,,DESKTOP-9ID2728,,LENOVO,20R3S00G00,424,"27/12/22, 12:04 pm",Disk cleanup,Resolved,null,"26/12/22, 12:17 pm",-23:47:05,Null,System realted
+Rajnish Tripathi,,R90XV3HH,,192.168.29.27,,R90XV3HH,,DESKTOP-9ID2728,,LENOVO,20R3S00G00,425,"27/12/22, 12:04 pm",Disk cleanup,Resolved,null,"26/12/22, 12:17 pm",-23:46:52,Null,System realted
+Rajnish Tripathi,,R90XV3HH,,192.168.29.27,,R90XV3HH,,DESKTOP-9ID2728,,LENOVO,20R3S00G00,426,"27/12/22, 12:19 pm",Disk cleanup,Resolved,null,"26/12/22, 12:19 pm",-23:59:44,Null,System realted
+Rajnish Tripathi,,R90XV3HH,,192.168.29.27,,R90XV3HH,,DESKTOP-9ID2728,,LENOVO,20R3S00G00,427,"27/12/22, 12:19 pm",VPN Configuration,Resolved,null,"26/12/22, 12:20 pm",-23:59:44,Null,null
+Rajnish Tripathi,,R90XV3HH,,192.168.29.27,,R90XV3HH,,DESKTOP-9ID2728,,LENOVO,20R3S00G00,428,"27/12/22, 12:20 pm",Antivirus Update,Resolved,null,"26/12/22, 12:20 pm",-23:59:38,Null,null
+Rajnish Tripathi,,R90XV3HH,,192.168.29.27,,R90XV3HH,,DESKTOP-9ID2728,,LENOVO,20R3S00G00,429,"27/12/22, 12:21 pm",Uninstall MS TEAMS,Resolved,null,"26/12/22, 12:22 pm",-23:58:55,Null,Software issues
+Rajnish Tripathi,,R90XV3HH,,192.168.29.27,,R90XV3HH,,DESKTOP-9ID2728,,LENOVO,20R3S00G00,430,"27/12/22, 12:22 pm",Uninstall SONIC WALL VPN,Resolved,null,"26/12/22, 12:23 pm",-23:59:12,Null,Software issues
+Rajnish Tripathi,,R90XV3HH,,192.168.29.27,,R90XV3HH,,DESKTOP-9ID2728,,LENOVO,20R3S00G00,431,"27/12/22, 12:22 pm",Uninstall SONIC WALL VPN,Resolved,null,"26/12/22, 12:23 pm",-23:59:01,Null,Software issues
+Rajnish Tripathi,,R90XV3HH,,192.168.29.27,,R90XV3HH,,DESKTOP-9ID2728,,LENOVO,20R3S00G00,432,"27/12/22, 12:23 pm",Uninstall TEAM VIEWER,Resolved,null,"26/12/22, 12:24 pm",-23:59:18,Null,Software issues
+Mahesh-AFS,,CNU315BCBS,,192.168.1.248,,CNU315BCBS,,Mahesh,,Hewlett-Packard,HP EliteBook 2570p,441,"27/12/22, 2:22 pm",Disk cleanup,Closed,"27/12/22, 2:25 pm","26/12/22, 2:23 pm",-23:59:33,Null,System realted
+Mahesh-AFS,,CNU315BCBS,,192.168.1.248,,CNU315BCBS,,Mahesh,,Hewlett-Packard,HP EliteBook 2570p,442,"27/12/22, 2:23 pm",Disk cleanup,Closed,"10/02/23, 10:44 am","26/12/22, 2:24 pm",-23:59:33,Null,System realted
+Mahesh-AFS,,CNU315BCBS,,192.168.1.248,,CNU315BCBS,,Mahesh,,Hewlett-Packard,HP EliteBook 2570p,443,"27/12/22, 2:26 pm",Install SONIC WALL VPN,Closed,"30/12/22, 11:27 am","26/12/22, 2:27 pm",-23:59:32,Null,Software issues
+Mahesh-AFS,,CNU315BCBS,,192.168.1.248,,CNU315BCBS,,Mahesh,,Hewlett-Packard,HP EliteBook 2570p,444,"27/12/22, 2:28 pm",VPN Configuration,Closed,"30/12/22, 11:27 am","26/12/22, 2:29 pm",-23:59:32,Null,null
+Mahesh-AFS,,CNU315BCBS,,192.168.1.248,,CNU315BCBS,,Mahesh,,Hewlett-Packard,HP EliteBook 2570p,445,"27/12/22, 2:30 pm",Uninstall SONIC WALL VPN,Closed,"30/12/22, 11:27 am","26/12/22, 2:31 pm",-23:59:33,Null,Software issues
+IT,,UXVJSSIS82F5018284,,192.168.0.219,,UXVJSSIS82F5018284,,user,,Acer,Veriton M200-H81,448,"27/12/22, 3:35 pm",Disk cleanup,Resolved,null,"26/12/22, 3:35 pm",-23:59:24,Null,System realted
+IT,,UXVJSSIS82F5018284,,192.168.0.219,,UXVJSSIS82F5018284,,user,,Acer,Veriton M200-H81,449,"27/12/22, 3:36 pm",Disk cleanup,Resolved,null,"26/12/22, 3:37 pm",-23:59:27,Null,System realted
+IT,,UXVJSSIS82F5018284,,192.168.0.219,,UXVJSSIS82F5018284,,user,,Acer,Veriton M200-H81,450,"27/12/22, 3:37 pm",Install SONIC WALL VPN,Resolved,null,"26/12/22, 3:38 pm",-23:59:26,Null,Software issues
+IT,,UXVJSSIS82F5018284,,192.168.0.219,,UXVJSSIS82F5018284,,user,,Acer,Veriton M200-H81,451,"27/12/22, 3:38 pm",Uninstall SONIC WALL VPN,Resolved,null,"26/12/22, 3:39 pm",-23:59:26,Null,Software issues
+IT,,UXVJSSIS82F5018284,,192.168.0.219,,UXVJSSIS82F5018284,,user,,Acer,Veriton M200-H81,452,"27/12/22, 3:41 pm",Disk cleanup,Resolved,null,"26/12/22, 3:42 pm",-23:59:26,Null,System realted
+Brajesh Tiwari,,GHDDLX1,,192.168.1.189,,GHDDLX1,,DESKTOP-SMOHMNB,,Dell Inc.,Latitude E6330,455,"27/12/22, 5:30 pm",Disk cleanup,Resolved,null,"26/12/22, 5:31 pm",-23:59:18,Null,System realted
+Brajesh Tiwari,,GHDDLX1,,192.168.1.189,,GHDDLX1,,DESKTOP-SMOHMNB,,Dell Inc.,Latitude E6330,456,"27/12/22, 5:33 pm",Install SONIC WALL VPN,Resolved,null,"26/12/22, 5:33 pm",-23:59:25,Null,Software issues
+Brajesh Tiwari,,GHDDLX1,,192.168.1.189,,GHDDLX1,,DESKTOP-SMOHMNB,,Dell Inc.,Latitude E6330,457,"27/12/22, 5:34 pm",Uninstall SONIC WALL VPN,Resolved,null,"26/12/22, 5:34 pm",-23:59:28,Null,Software issues
+Urmila,,1KJW532,,192.168.1.128,,1KJW532,,DESKTOP-OTIV5FR,,Dell Inc.,Latitude 3440,461,"27/12/22, 5:59 pm",Disk cleanup,Resolved,null,"26/12/22, 5:59 pm",-23:59:11,Null,System realted
+Urmila,,1KJW532,,192.168.1.128,,1KJW532,,DESKTOP-OTIV5FR,,Dell Inc.,Latitude 3440,462,"27/12/22, 6:00 pm",Install SONIC WALL VPN,Resolved,null,"26/12/22, 6:01 pm",-23:59:29,Null,Software issues
+Urmila,,1KJW532,,192.168.1.128,,1KJW532,,DESKTOP-OTIV5FR,,Dell Inc.,Latitude 3440,463,"27/12/22, 6:02 pm",Uninstall SONIC WALL VPN,Resolved,null,"26/12/22, 6:03 pm",-23:59:22,Null,Software issues
+K.M.Dineshan,,6P9VXX1,,192.168.1.186,,6P9VXX1,,DESKTOP-VOLS19Q,,Dell Inc.,Latitude E5430 non-vPro,465,"27/12/22, 6:13 pm",Disk cleanup,Closed,"27/12/22, 6:25 pm","26/12/22, 6:13 pm",-23:59:27,Null,System realted
+K.M.Dineshan,,6P9VXX1,,192.168.1.186,,6P9VXX1,,DESKTOP-VOLS19Q,,Dell Inc.,Latitude E5430 non-vPro,466,"27/12/22, 6:14 pm",Disk cleanup,Closed,"27/12/22, 6:25 pm","26/12/22, 6:14 pm",-23:59:32,Null,System realted
+K.M.Dineshan,,6P9VXX1,,192.168.1.186,,6P9VXX1,,DESKTOP-VOLS19Q,,Dell Inc.,Latitude E5430 non-vPro,467,"27/12/22, 6:16 pm",Disk cleanup,Closed,"27/12/22, 6:25 pm","26/12/22, 6:16 pm",-23:59:35,Null,System realted
+K.M.Dineshan,,6P9VXX1,,192.168.1.186,,6P9VXX1,,DESKTOP-VOLS19Q,,Dell Inc.,Latitude E5430 non-vPro,468,"27/12/22, 6:18 pm",Disk cleanup,Closed,"27/12/22, 6:25 pm","26/12/22, 6:18 pm",-23:59:34,Null,System realted
+K.M.Dineshan,,6P9VXX1,,192.168.1.186,,6P9VXX1,,DESKTOP-VOLS19Q,,Dell Inc.,Latitude E5430 non-vPro,469,"27/12/22, 6:21 pm",Disk cleanup,Closed,"27/12/22, 6:25 pm","26/12/22, 6:21 pm",-23:59:31,Null,System realted
+K.M.Dineshan,,6P9VXX1,,192.168.1.186,,6P9VXX1,,DESKTOP-VOLS19Q,,Dell Inc.,Latitude E5430 non-vPro,470,"27/12/22, 6:22 pm",Install SONIC WALL VPN,Closed,"27/12/22, 6:26 pm","26/12/22, 6:23 pm",-23:59:33,Null,Software issues
+K.M.Dineshan,,6P9VXX1,,192.168.1.186,,6P9VXX1,,DESKTOP-VOLS19Q,,Dell Inc.,Latitude E5430 non-vPro,471,"27/12/22, 6:23 pm",Uninstall SONIC WALL VPN,Closed,"27/12/22, 6:26 pm","26/12/22, 6:24 pm",-23:59:32,Null,Software issues
+Administrator,,JH7M622,,192.168.0.155,,JH7M622,,DESKTOP-T0EGVU5,,Dell Inc.,OptiPlex 3020,472,"27/12/22, 7:25 pm",Disk cleanup,Resolved,null,"27/12/22, 7:25 pm",00:00:15,Null,System realted
+Mahesh-AFS,,CNU315BCBS,,192.168.1.248,,CNU315BCBS,,Mahesh,,Hewlett-Packard,HP EliteBook 2570p,473,"28/12/22, 10:28 am",Disk cleanup,Closed,"30/12/22, 11:27 am","27/12/22, 10:28 am",-23:59:33,Null,System realted
+Mahesh-AFS,,CNU315BCBS,,192.168.1.248,,CNU315BCBS,,Mahesh,,Hewlett-Packard,HP EliteBook 2570p,474,"28/12/22, 10:31 am",Install SONIC WALL VPN,Closed,"30/12/22, 11:27 am","27/12/22, 10:31 am",-23:59:31,Null,Software issues
+Mahesh-AFS,,CNU315BCBS,,192.168.1.248,,CNU315BCBS,,Mahesh,,Hewlett-Packard,HP EliteBook 2570p,475,"28/12/22, 10:32 am",VPN Configuration,Closed,"30/12/22, 11:27 am","27/12/22, 10:32 am",-23:59:34,Null,null
+Mahesh-AFS,,CNU315BCBS,,192.168.1.248,,CNU315BCBS,,Mahesh,,Hewlett-Packard,HP EliteBook 2570p,476,"28/12/22, 10:35 am",Uninstall SONIC WALL VPN,Closed,"30/12/22, 11:27 am","27/12/22, 10:35 am",-23:59:29,Null,Software issues
+Mahesh-AFS,,CNU315BCBS,,192.168.1.248,,CNU315BCBS,,Mahesh,,Hewlett-Packard,HP EliteBook 2570p,477,"28/12/22, 10:36 am",Uninstall TEAM VIEWER,Closed,"30/12/22, 11:27 am","27/12/22, 10:37 am",-23:59:19,Null,Software issues
+Mahesh-AFS,,CNU315BCBS,,192.168.1.248,,CNU315BCBS,,Mahesh,,Hewlett-Packard,HP EliteBook 2570p,478,"28/12/22, 10:38 am",Install TEAM VIEWER,Closed,"30/12/22, 11:27 am","27/12/22, 10:39 am",-23:59:06,Null,Software issues
+Radhika Singh,,5NQGH92,,192.168.1.158,,5NQGH92,,WS-26,,Dell Inc.,OptiPlex 3020,488,"28/12/22, 12:20 pm",Disk cleanup,Resolved,null,"27/12/22, 12:20 pm",-23:59:26,Null,System realted
+Radhika Singh,,5NQGH92,,192.168.1.158,,5NQGH92,,WS-26,,Dell Inc.,OptiPlex 3020,489,"28/12/22, 12:22 pm",Disk cleanup,Resolved,null,"27/12/22, 12:23 pm",-23:59:05,Null,System realted
+Radhika Singh,,5NQGH92,,192.168.1.158,,5NQGH92,,WS-26,,Dell Inc.,OptiPlex 3020,490,"28/12/22, 12:25 pm",Install WINRAR,Resolved,null,"27/12/22, 12:26 pm",-23:59:31,Null,Software issues
+Radhika Singh,,5NQGH92,,192.168.1.158,,5NQGH92,,WS-26,,Dell Inc.,OptiPlex 3020,491,"28/12/22, 12:26 pm",Install WINRAR,Resolved,null,"27/12/22, 12:26 pm",-23:59:31,Null,Software issues
+Radhika Singh,,5NQGH92,,192.168.1.158,,5NQGH92,,WS-26,,Dell Inc.,OptiPlex 3020,492,"28/12/22, 12:32 pm",Disk cleanup,Resolved,null,"27/12/22, 12:32 pm",-23:59:27,Null,System realted
+Radhika Singh,,5NQGH92,,192.168.1.158,,5NQGH92,,WS-26,,Dell Inc.,OptiPlex 3020,493,"28/12/22, 12:33 pm",Install WINRAR,Resolved,null,"27/12/22, 12:33 pm",-23:59:28,Null,Software issues
+Radhika Singh,,5NQGH92,,192.168.1.158,,5NQGH92,,WS-26,,Dell Inc.,OptiPlex 3020,494,"28/12/22, 12:34 pm",Install SONIC WALL VPN,Resolved,null,"27/12/22, 12:34 pm",-23:59:28,Null,Software issues
+Radhika Singh,,5NQGH92,,192.168.1.158,,5NQGH92,,WS-26,,Dell Inc.,OptiPlex 3020,495,"28/12/22, 12:34 pm",Uninstall SONIC WALL VPN,Resolved,null,"27/12/22, 12:35 pm",-23:59:29,Null,Software issues
+Radhika Singh,,5NQGH92,,192.168.1.158,,5NQGH92,,WS-26,,Dell Inc.,OptiPlex 3020,496,"28/12/22, 12:35 pm",Install MS TEAMS,Resolved,null,"27/12/22, 12:36 pm",-23:58:53,Null,Software issues
+Radhika Singh,,5NQGH92,,192.168.1.158,,5NQGH92,,WS-26,,Dell Inc.,OptiPlex 3020,497,"28/12/22, 12:37 pm",Install ONE DRIVE,Resolved,null,"27/12/22, 12:38 pm",-23:58:38,Null,Software issues
+Radhika Singh,,5NQGH92,,192.168.1.158,,5NQGH92,,WS-26,,Dell Inc.,OptiPlex 3020,498,"28/12/22, 12:39 pm",Install ZOOM,Resolved,null,"27/12/22, 12:40 pm",-23:59:17,Null,Software issues
+Radhika Singh,,5NQGH92,,192.168.1.158,,5NQGH92,,WS-26,,Dell Inc.,OptiPlex 3020,499,"28/12/22, 12:43 pm",Install SONIC WALL VPN,Resolved,null,"27/12/22, 12:43 pm",-23:59:30,Null,Software issues
+Mahesh-AFS,,CNU315BCBS,,192.168.1.248,,CNU315BCBS,,Mahesh,,Hewlett-Packard,HP EliteBook 2570p,500,"28/12/22, 1:04 pm",Disk cleanup,Closed,"30/12/22, 11:27 am","27/12/22, 1:05 pm",-23:59:13,Null,System realted
+Mahesh-AFS,,CNU315BCBS,,192.168.1.248,,CNU315BCBS,,Mahesh,,Hewlett-Packard,HP EliteBook 2570p,501,"28/12/22, 1:18 pm",Install WINRAR,Closed,"30/12/22, 11:28 am","27/12/22, 1:19 pm",-23:59:32,Null,Software issues
+Mahesh-AFS,,CNU315BCBS,,192.168.1.248,,CNU315BCBS,,Mahesh,,Hewlett-Packard,HP EliteBook 2570p,502,"28/12/22, 1:21 pm",Install SONIC WALL VPN,Closed,"30/12/22, 11:28 am","27/12/22, 1:21 pm",-23:59:31,Null,Software issues
+Mahesh-AFS,,CNU315BCBS,,192.168.1.248,,CNU315BCBS,,Mahesh,,Hewlett-Packard,HP EliteBook 2570p,503,"28/12/22, 1:24 pm",Install ZOOM,Closed,"30/12/22, 11:28 am","27/12/22, 1:25 pm",-23:59:17,Null,Software issues
+Mahesh-AFS,,CNU315BCBS,,192.168.1.248,,CNU315BCBS,,Mahesh,,Hewlett-Packard,HP EliteBook 2570p,504,"28/12/22, 1:27 pm",Uninstall WINRAR,Closed,"30/12/22, 11:28 am","27/12/22, 1:27 pm",-23:59:30,Null,Software issues
+Mahesh-AFS,,CNU315BCBS,,192.168.1.248,,CNU315BCBS,,Mahesh,,Hewlett-Packard,HP EliteBook 2570p,505,"28/12/22, 1:32 pm",Install WINRAR,Closed,"30/12/22, 11:28 am","27/12/22, 1:33 pm",-23:59:32,Null,Software issues
+Mahesh-AFS,,CNU315BCBS,,192.168.1.248,,CNU315BCBS,,Mahesh,,Hewlett-Packard,HP EliteBook 2570p,506,"28/12/22, 1:34 pm",Install SONIC WALL VPN,Closed,"30/12/22, 11:28 am","27/12/22, 1:35 pm",-23:59:30,Null,Software issues
+Mahesh-AFS,,CNU315BCBS,,192.168.1.248,,CNU315BCBS,,Mahesh,,Hewlett-Packard,HP EliteBook 2570p,507,"28/12/22, 1:37 pm",Repair WINRAR,Closed,"28/12/22, 2:10 pm","27/12/22, 2:10 pm",-23:26:41,Null,Software repair issues
+Mahesh-AFS,,CNU315BCBS,,192.168.1.248,,CNU315BCBS,,Mahesh,,Hewlett-Packard,HP EliteBook 2570p,508,"28/12/22, 1:37 pm",Repair SONIC WALL VPN,Closed,"30/12/22, 11:27 am","27/12/22, 1:38 pm",-23:59:31,Null,Software repair issues
+Mahesh-AFS,,CNU315BCBS,,192.168.1.248,,CNU315BCBS,,Mahesh,,Hewlett-Packard,HP EliteBook 2570p,509,"28/12/22, 1:42 pm",Disk cleanup,Closed,"30/12/22, 11:27 am","27/12/22, 1:42 pm",-23:59:32,Null,System realted
+Mahesh-AFS,,CNU315BCBS,,192.168.1.248,,CNU315BCBS,,Mahesh,,Hewlett-Packard,HP EliteBook 2570p,510,"28/12/22, 1:45 pm",Disk cleanup,Closed,"30/12/22, 11:27 am","27/12/22, 1:46 pm",-23:59:31,Null,System realted
+Mahesh-AFS,,CNU315BCBS,,192.168.1.248,,CNU315BCBS,,Mahesh,,Hewlett-Packard,HP EliteBook 2570p,511,"28/12/22, 1:46 pm",Disk cleanup,Closed,"30/12/22, 11:27 am","27/12/22, 1:46 pm",-23:59:35,Null,System realted
+Mahesh-AFS,,CNU315BCBS,,192.168.1.248,,CNU315BCBS,,Mahesh,,Hewlett-Packard,HP EliteBook 2570p,512,"28/12/22, 1:46 pm",Disk cleanup,Closed,"30/12/22, 11:27 am","27/12/22, 1:47 pm",-23:59:33,Null,System realted
+Mahesh-AFS,,CNU315BCBS,,192.168.1.248,,CNU315BCBS,,Mahesh,,Hewlett-Packard,HP EliteBook 2570p,513,"28/12/22, 1:48 pm",Outlook2007,Closed,"30/12/22, 11:27 am","27/12/22, 1:48 pm",-23:59:32,Null,Email issues
+Mahesh-AFS,,CNU315BCBS,,192.168.1.248,,CNU315BCBS,,Mahesh,,Hewlett-Packard,HP EliteBook 2570p,514,"28/12/22, 1:48 pm",Outlook2007,Closed,"30/12/22, 11:27 am","27/12/22, 1:49 pm",-23:59:31,Null,Email issues
+Mahesh-AFS,,CNU315BCBS,,192.168.1.248,,CNU315BCBS,,Mahesh,,Hewlett-Packard,HP EliteBook 2570p,515,"28/12/22, 1:50 pm","HP LaserJet 1022 N
+",Closed,"30/12/22, 11:27 am","27/12/22, 1:51 pm",-23:59:32,Null,Printer realted
+Mahesh-AFS,,CNU315BCBS,,192.168.1.248,,CNU315BCBS,,Mahesh,,Hewlett-Packard,HP EliteBook 2570p,516,"28/12/22, 1:51 pm","HP LaserJet 1022 N
+",Closed,"30/12/22, 11:26 am","27/12/22, 1:51 pm",-23:59:29,Null,Printer realted
+Mahesh-AFS,,CNU315BCBS,,192.168.1.248,,CNU315BCBS,,Mahesh,,Hewlett-Packard,HP EliteBook 2570p,517,"28/12/22, 1:51 pm",HP LaserJet Professional CP1025,Closed,"28/12/22, 2:09 pm","27/12/22, 1:53 pm",-23:58:16,Null,Printer realted
+Radhika Singh,,5NQGH92,,192.168.1.158,,5NQGH92,,WS-26,,Dell Inc.,OptiPlex 3020,518,"28/12/22, 2:34 pm",Install TEAM VIEWER,Resolved,null,"27/12/22, 2:35 pm",-23:59:14,Null,Software issues
+Prabhat Shukla,,9X89102,,192.168.1.138,,9X89102,,Prabhat-Lap,,Dell Inc.,Latitude E5430 non-vPro,520,"28/12/22, 2:58 pm",Install WINRAR,Closed,"23/01/23, 11:21 am","27/12/22, 2:59 pm",-23:59:29,Null,Software issues
+Prabhat Shukla,,9X89102,,192.168.1.138,,9X89102,,Prabhat-Lap,,Dell Inc.,Latitude E5430 non-vPro,521,"28/12/22, 3:05 pm",Install SONIC WALL VPN,Closed,"23/01/23, 11:21 am","27/12/22, 3:05 pm",-23:59:29,Null,Software issues
+Prabhat Shukla,,9X89102,,192.168.1.138,,9X89102,,Prabhat-Lap,,Dell Inc.,Latitude E5430 non-vPro,522,"28/12/22, 3:08 pm",Uninstall WINRAR,Closed,"23/01/23, 11:21 am","27/12/22, 3:08 pm",-23:59:28,Null,Software issues
+Prabhat Shukla,,9X89102,,192.168.1.138,,9X89102,,Prabhat-Lap,,Dell Inc.,Latitude E5430 non-vPro,523,"28/12/22, 3:11 pm",Install WINRAR,Closed,"23/01/23, 11:22 am","27/12/22, 3:12 pm",-23:59:27,Null,Software issues
+Prabhat Shukla,,9X89102,,192.168.1.138,,9X89102,,Prabhat-Lap,,Dell Inc.,Latitude E5430 non-vPro,524,"28/12/22, 3:12 pm",Repair SONIC WALL VPN,Closed,"23/01/23, 11:22 am","27/12/22, 3:13 pm",-23:59:27,Null,Software repair issues
+Prabhat Shukla,,9X89102,,192.168.1.138,,9X89102,,Prabhat-Lap,,Dell Inc.,Latitude E5430 non-vPro,525,"28/12/22, 3:13 pm",Disk cleanup,Closed,"23/01/23, 11:22 am","27/12/22, 3:14 pm",-23:59:30,Null,System realted
+Prabhat Shukla,,9X89102,,192.168.1.138,,9X89102,,Prabhat-Lap,,Dell Inc.,Latitude E5430 non-vPro,526,"28/12/22, 3:17 pm",Disk cleanup,Closed,"23/01/23, 11:22 am","27/12/22, 3:17 pm",-23:59:33,Null,System realted
+Prabhat Shukla,,9X89102,,192.168.1.138,,9X89102,,Prabhat-Lap,,Dell Inc.,Latitude E5430 non-vPro,527,"28/12/22, 3:19 pm","HP LaserJet 1022 N
+",Closed,"23/01/23, 11:22 am","27/12/22, 3:19 pm",-23:59:27,Null,Printer realted
+Prabhat Shukla,,9X89102,,192.168.1.138,,9X89102,,Prabhat-Lap,,Dell Inc.,Latitude E5430 non-vPro,528,"28/12/22, 3:32 pm",Uninstall SONIC WALL VPN,Closed,"23/01/23, 11:22 am","27/12/22, 3:32 pm",-23:59:26,Null,Software issues
+Prabhat Shukla,,9X89102,,192.168.1.138,,9X89102,,Prabhat-Lap,,Dell Inc.,Latitude E5430 non-vPro,529,"28/12/22, 3:33 pm",Install SONIC WALL VPN,Closed,"23/01/23, 11:22 am","27/12/22, 3:33 pm",-23:59:28,Null,Software issues
+Prabhat Shukla,,9X89102,,192.168.1.138,,9X89102,,Prabhat-Lap,,Dell Inc.,Latitude E5430 non-vPro,530,"28/12/22, 3:34 pm",Install MS TEAMS,Closed,"23/01/23, 11:22 am","27/12/22, 3:35 pm",-23:58:52,Null,Software issues
+Prabhat Shukla,,9X89102,,192.168.1.138,,9X89102,,Prabhat-Lap,,Dell Inc.,Latitude E5430 non-vPro,531,"28/12/22, 3:37 pm",Uninstall ONE DRIVE,Closed,"23/01/23, 11:22 am","27/12/22, 3:39 pm",-23:58:25,Null,Software issues
+Prabhat Shukla,,9X89102,,192.168.1.138,,9X89102,,Prabhat-Lap,,Dell Inc.,Latitude E5430 non-vPro,532,"28/12/22, 3:39 pm",Install ONE DRIVE,Closed,"23/01/23, 11:22 am","27/12/22, 3:40 pm",-23:58:29,Null,Software issues
+Radhika Singh,,5NQGH92,,192.168.1.158,,5NQGH92,,WS-26,,Dell Inc.,OptiPlex 3020,533,"28/12/22, 3:49 pm",Install WINRAR,Resolved,null,"27/12/22, 3:50 pm",-23:59:28,Null,Software issues
+Radhika Singh,,5NQGH92,,192.168.1.158,,5NQGH92,,WS-26,,Dell Inc.,OptiPlex 3020,534,"28/12/22, 3:52 pm",Uninstall WINRAR,Resolved,null,"27/12/22, 3:53 pm",-23:59:33,Null,Software issues
+Radhika Singh,,5NQGH92,,192.168.1.158,,5NQGH92,,WS-26,,Dell Inc.,OptiPlex 3020,535,"28/12/22, 3:56 pm",Uninstall WINRAR,Resolved,null,"27/12/22, 3:56 pm",-23:59:32,Null,Software issues
+Radhika Singh,,5NQGH92,,192.168.1.158,,5NQGH92,,WS-26,,Dell Inc.,OptiPlex 3020,536,"28/12/22, 3:59 pm",Uninstall WINRAR,Resolved,null,"27/12/22, 4:00 pm",-23:59:30,Null,Software issues
+Radhika Singh,,5NQGH92,,192.168.1.158,,5NQGH92,,WS-26,,Dell Inc.,OptiPlex 3020,537,"28/12/22, 4:00 pm",Uninstall SONIC WALL VPN,Resolved,null,"27/12/22, 4:00 pm",-23:59:29,Null,Software issues
+Radhika Singh,,5NQGH92,,192.168.1.158,,5NQGH92,,WS-26,,Dell Inc.,OptiPlex 3020,538,"28/12/22, 4:01 pm",Install SONIC WALL VPN,Resolved,null,"27/12/22, 4:01 pm",-23:59:31,Null,Software issues
+Radhika Singh,,5NQGH92,,192.168.1.158,,5NQGH92,,WS-26,,Dell Inc.,OptiPlex 3020,539,"28/12/22, 4:02 pm",Repair SONIC WALL VPN,Resolved,null,"27/12/22, 4:03 pm",-23:59:29,Null,Software repair issues
+Radhika Singh,,5NQGH92,,192.168.1.158,,5NQGH92,,WS-26,,Dell Inc.,OptiPlex 3020,540,"28/12/22, 4:03 pm",Disk cleanup,Resolved,null,"27/12/22, 4:03 pm",-23:59:35,Null,System realted
+Radhika Singh,,5NQGH92,,192.168.1.158,,5NQGH92,,WS-26,,Dell Inc.,OptiPlex 3020,541,"28/12/22, 4:05 pm",Disk cleanup,Resolved,null,"27/12/22, 4:06 pm",-23:59:32,Null,System realted
+Mahesh-AFS,,CNU315BCBS,,192.168.1.248,,CNU315BCBS,,Mahesh,,Hewlett-Packard,HP EliteBook 2570p,548,"30/12/22, 10:20 am",Uninstall SONIC WALL VPN,Closed,"30/12/22, 11:26 am","29/12/22, 10:20 am",-23:59:09,Null,Software issues
+Mahesh-AFS,,CNU315BCBS,,192.168.1.248,,CNU315BCBS,,Mahesh,,Hewlett-Packard,HP EliteBook 2570p,549,"30/12/22, 10:21 am",Uninstall WINRAR,Closed,"30/12/22, 11:26 am","29/12/22, 10:21 am",-23:59:26,Null,Software issues
+Mahesh-AFS,,CNU315BCBS,,192.168.1.248,,CNU315BCBS,,Mahesh,,Hewlett-Packard,HP EliteBook 2570p,550,"30/12/22, 10:21 am",Uninstall TEAM VIEWER,Closed,"30/12/22, 11:26 am","29/12/22, 10:22 am",-23:59:17,Null,Software issues
+Mahesh-AFS,,CNU315BCBS,,192.168.1.248,,CNU315BCBS,,Mahesh,,Hewlett-Packard,HP EliteBook 2570p,551,"30/12/22, 10:24 am",Uninstall MS TEAMS,Closed,"30/12/22, 11:26 am","29/12/22, 10:26 am",-23:57:26,Null,Software issues
+Mahesh-AFS,,CNU315BCBS,,192.168.1.248,,CNU315BCBS,,Mahesh,,Hewlett-Packard,HP EliteBook 2570p,552,"30/12/22, 10:28 am",Install MS TEAMS,Closed,"30/12/22, 11:26 am","29/12/22, 10:29 am",-23:58:52,Null,Software issues
+Mahesh-AFS,,CNU315BCBS,,192.168.1.248,,CNU315BCBS,,Mahesh,,Hewlett-Packard,HP EliteBook 2570p,553,"30/12/22, 10:30 am",Install ANYDESK,Closed,"30/12/22, 11:26 am","29/12/22, 10:31 am",-23:59:27,Null,Software issues
+Mahesh-AFS,,CNU315BCBS,,192.168.1.248,,CNU315BCBS,,Mahesh,,Hewlett-Packard,HP EliteBook 2570p,554,"30/12/22, 10:32 am",Install TEAM VIEWER,Closed,"30/12/22, 11:26 am","29/12/22, 10:33 am",-23:59:20,Null,Software issues
+Mahesh-AFS,,CNU315BCBS,,192.168.1.248,,CNU315BCBS,,Mahesh,,Hewlett-Packard,HP EliteBook 2570p,555,"30/12/22, 10:34 am",Install WINRAR,Closed,"30/12/22, 11:26 am","29/12/22, 10:34 am",-23:59:28,Null,Software issues
+Mahesh-AFS,,CNU315BCBS,,192.168.1.248,,CNU315BCBS,,Mahesh,,Hewlett-Packard,HP EliteBook 2570p,556,"30/12/22, 10:43 am",VPN Configuration,Closed,"30/12/22, 11:26 am","29/12/22, 10:44 am",-23:59:31,Null,null
+Mahesh-AFS,,CNU315BCBS,,192.168.1.248,,CNU315BCBS,,Mahesh,,Hewlett-Packard,HP EliteBook 2570p,557,"30/12/22, 10:44 am",Install SONIC WALL VPN,Closed,"30/12/22, 11:26 am","29/12/22, 10:45 am",-23:59:29,Null,Software issues
+Mahesh-AFS,,CNU315BCBS,,192.168.1.248,,CNU315BCBS,,Mahesh,,Hewlett-Packard,HP EliteBook 2570p,558,"30/12/22, 10:45 am",VPN Configuration,Closed,"30/12/22, 11:26 am","29/12/22, 10:45 am",-23:59:29,Null,null
+Mahesh-AFS,,CNU315BCBS,,192.168.1.248,,CNU315BCBS,,Mahesh,,Hewlett-Packard,HP EliteBook 2570p,559,"30/12/22, 10:47 am",Uninstall SONIC WALL VPN,Closed,"30/12/22, 11:26 am","29/12/22, 10:48 am",-23:59:27,Null,Software issues

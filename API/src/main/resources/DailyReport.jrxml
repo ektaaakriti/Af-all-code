@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.20.3.final using JasperReports Library version 6.20.3-415f9428cffdb6805c6f85bbb29ebaf18813a2ab  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Daily_Report" pageWidth="842" pageHeight="595" orientation="Landscape" columnWidth="802" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" isIgnorePagination="true" uuid="5c357211-0cf0-4e09-9a04-e06b6e5e5e7b">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="AfReports.jrdax"/>
+	<property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+	<style name="Table_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<subDataset name="A4Sight" uuid="caede804-7fb4-437d-baaf-7d4f5bcbc3ac">
+		<property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+		<property name="com.jaspersoft.studio.data.defaultdataadapter" value="AfReports.jrdax"/>
+		<parameter name="start_date" class="java.lang.String"/>
+		<parameter name="end_date" class="java.lang.String"/>
+		<queryString language="SQL">
+			<![CDATA[select a.Date, Count(*),sum(a.opencnt),
+sum(a.closedcnt1),sum(a.closedcnt),
+sum(a.closedcnt2) ,sum(a.opencnt1),sum(a.opencnt2)
+From (SELECT DATE_FORMAT( Msg_datetime,"%d-%b-%Y") AS `Date`,
+	case when msg_status_YN = 'Y' then 1 else 0 end as opencnt,
+	case when msg_status_YN='O'then 1 else 0 end as opencnt1,
+	case when msg_status_YN='Of'then 1 else 0 end as opencnt2,
+case when msg_status_YN ='N' then 1 else 0 end as closedcnt,
+case when msg_status_YN ='C' then 1 else 0 end as closedcnt1,
+case when msg_status_YN ='Cf' then 1 else 0 end as closedcnt2
+FROM vf_agent_mgs_dtls
+WHERE 
+	 Msg_datetime IS NOT NULL  and DATE(Msg_datetime) between   $P{start_date} and $P{end_date}) as a
+GROUP BY `Date`]]>
+		</queryString>
+		<field name="Date" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="Date"/>
+			<property name="com.jaspersoft.studio.field.label" value="Date"/>
+		</field>
+		<field name="Count(*)" class="java.lang.Long">
+			<property name="com.jaspersoft.studio.field.name" value="Count(*)"/>
+			<property name="com.jaspersoft.studio.field.label" value="Count(*)"/>
+		</field>
+		<field name="sum(a.opencnt)" class="java.math.BigDecimal">
+			<property name="com.jaspersoft.studio.field.name" value="sum(a.opencnt)"/>
+			<property name="com.jaspersoft.studio.field.label" value="sum(a.opencnt)"/>
+		</field>
+		<field name="sum(a.closedcnt1)" class="java.math.BigDecimal">
+			<property name="com.jaspersoft.studio.field.name" value="sum(a.closedcnt1)"/>
+			<property name="com.jaspersoft.studio.field.label" value="sum(a.closedcnt1)"/>
+		</field>
+		<field name="sum(a.closedcnt)" class="java.math.BigDecimal">
+			<property name="com.jaspersoft.studio.field.name" value="sum(a.closedcnt)"/>
+			<property name="com.jaspersoft.studio.field.label" value="sum(a.closedcnt)"/>
+		</field>
+		<field name="sum(a.closedcnt2)" class="java.math.BigDecimal">
+			<property name="com.jaspersoft.studio.field.name" value="sum(a.closedcnt2)"/>
+			<property name="com.jaspersoft.studio.field.label" value="sum(a.closedcnt2)"/>
+		</field>
+		<field name="sum(a.opencnt1)" class="java.math.BigDecimal">
+			<property name="com.jaspersoft.studio.field.name" value="sum(a.opencnt1)"/>
+			<property name="com.jaspersoft.studio.field.label" value="sum(a.opencnt1)"/>
+		</field>
+		<field name="sum(a.opencnt2)" class="java.math.BigDecimal">
+			<property name="com.jaspersoft.studio.field.name" value="sum(a.opencnt2)"/>
+			<property name="com.jaspersoft.studio.field.label" value="sum(a.opencnt2)"/>
+		</field>
+	</subDataset>
+	<parameter name="start_date" class="java.lang.String"/>
+	<parameter name="end_date" class="java.lang.String"/>
+	<parameter name="format" class="java.lang.String" isForPrompting="false">
+		<defaultValueExpression><![CDATA["xlsx"]]></defaultValueExpression>
+	</parameter>
+	<queryString>
+		<![CDATA[Select 1]]>
+	</queryString>
+	<field name="1" class="java.lang.Long">
+		<property name="com.jaspersoft.studio.field.name" value="1"/>
+		<property name="com.jaspersoft.studio.field.label" value="1"/>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<pageHeader>
+		<band height="118">
+			<printWhenExpression><![CDATA[$P{format}.equals("xlsx") ? new Boolean(false) : new Boolean(true)]]></printWhenExpression>
+			<staticText>
+				<reportElement x="280" y="10" width="400" height="40" uuid="5ad0fb70-5678-4202-a9d5-983797023da5">
+					<printWhenExpression><![CDATA[$P{format}.equals("xlsx") ? new Boolean(false) : new Boolean(true)]]></printWhenExpression>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="SansSerif" size="20" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Daily Report Summary]]></text>
+			</staticText>
+			<textField pattern="MMMMM dd, yyyy">
+				<reportElement x="708" y="37" width="100" height="30" uuid="21ca51b5-8359-4649-8021-20ab1789c653">
+					<printWhenExpression><![CDATA[$P{format}.equals("xlsx") ? new Boolean(false) : new Boolean(true)]]></printWhenExpression>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="-6" y="52" width="46" height="30" uuid="91cbfb81-81c6-49c2-a4d5-adb802072113">
+					<printWhenExpression><![CDATA[$P{format}.equals("xlsx") ? new Boolean(false) : new Boolean(true)]]></printWhenExpression>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[Date -]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="141" y="52" width="100" height="30" uuid="a8d2b9c4-1749-479b-b703-48da6b9c0869">
+					<printWhenExpression><![CDATA[$P{format}.equals("xlsx") ? new Boolean(false) : new Boolean(true)]]></printWhenExpression>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$P{end_date}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="101" y="52" width="39" height="30" uuid="a9d6bccc-eb73-435d-8255-de221d61528a">
+					<printWhenExpression><![CDATA[$P{format}.equals("xlsx") ? new Boolean(false) : new Boolean(true)]]></printWhenExpression>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[To]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="41" y="52" width="59" height="30" uuid="03df21b2-e599-49e5-8a6f-7836a65715bd">
+					<printWhenExpression><![CDATA[$P{format}.equals("xlsx") ? new Boolean(false) : new Boolean(true)]]></printWhenExpression>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$P{start_date}]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageHeader>
+	<detail>
+		<band height="210" splitType="Stretch">
+			<componentElement>
+				<reportElement x="-11" y="7" width="390" height="90" uuid="3b271a10-6239-404e-8c11-0f9e0a8dd00b">
+					<property name="com.jaspersoft.studio.layout" value="com.jaspersoft.studio.editor.layout.VerticalRowLayout"/>
+					<property name="com.jaspersoft.studio.table.style.table_header" value="Table_TH"/>
+					<property name="com.jaspersoft.studio.table.style.column_header" value="Table_CH"/>
+					<property name="com.jaspersoft.studio.table.style.detail" value="Table_TD"/>
+				</reportElement>
+				<jr:table xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
+					<datasetRun subDataset="A4Sight" uuid="b38ab995-a0a0-43df-a229-921ec430c771">
+						<datasetParameter name="start_date">
+							<datasetParameterExpression><![CDATA[$P{start_date}]]></datasetParameterExpression>
+						</datasetParameter>
+						<datasetParameter name="end_date">
+							<datasetParameterExpression><![CDATA[$P{end_date}]]></datasetParameterExpression>
+						</datasetParameter>
+					</datasetRun>
+					<jr:columnGroup width="156" uuid="6d2f51f0-0782-40dc-b7ae-fc7ba8ca0fc3">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Columns [2]"/>
+						<jr:column width="78" uuid="178d6ff8-d7b5-4638-b2e0-cead60612a73">
+							<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column1"/>
+							<jr:columnHeader style="Table_CH" height="46" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="78" height="46" forecolor="#050000" backcolor="#FFFFFF" uuid="aec9ce42-5572-4355-aa70-1cc6a4e3603f"/>
+									<textElement textAlignment="Center" verticalAlignment="Middle">
+										<font size="11" isBold="true"/>
+									</textElement>
+									<text><![CDATA[Date]]></text>
+								</staticText>
+							</jr:columnHeader>
+							<jr:detailCell style="Table_TD" height="60">
+								<textField>
+									<reportElement x="0" y="0" width="78" height="60" uuid="e4747613-42d8-4bfd-9096-98159aca1173"/>
+									<textElement textAlignment="Center" verticalAlignment="Middle"/>
+									<textFieldExpression><![CDATA[$F{Date}]]></textFieldExpression>
+								</textField>
+							</jr:detailCell>
+						</jr:column>
+						<jr:column width="78" uuid="29050b8a-bc6b-4c5a-a5ae-114c6f510fe7">
+							<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column2"/>
+							<jr:columnHeader style="Table_CH" height="46" rowSpan="1">
+								<staticText>
+									<reportElement x="0" y="0" width="78" height="46" forecolor="#050000" backcolor="#FFFFFF" uuid="25985b6b-d9c6-486b-99d9-dbfa472a12ca"/>
+									<textElement textAlignment="Center" verticalAlignment="Middle">
+										<font size="11" isBold="true"/>
+									</textElement>
+									<text><![CDATA[Total Ticket Raised]]></text>
+								</staticText>
+							</jr:columnHeader>
+							<jr:detailCell style="Table_TD" height="60">
+								<textField>
+									<reportElement x="0" y="0" width="78" height="60" uuid="38706841-b661-44d3-8fc7-4fe05aa6ef6a"/>
+									<textElement textAlignment="Center" verticalAlignment="Middle"/>
+									<textFieldExpression><![CDATA[$F{Count(*)}]]></textFieldExpression>
+								</textField>
+							</jr:detailCell>
+						</jr:column>
+					</jr:columnGroup>
+					<jr:column width="78" uuid="17fb8c0c-837e-4016-86a0-86d9b53dbc36">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column3"/>
+						<jr:columnHeader style="Table_CH" height="46" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="78" height="46" forecolor="#050000" backcolor="#FFFFFF" uuid="b6f8b39f-428a-4db7-a9f0-3890b2ff1fc9"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font size="11" isBold="true"/>
+								</textElement>
+								<text><![CDATA[Auto resolved tickets]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table_TD" height="60">
+							<textField>
+								<reportElement x="0" y="0" width="78" height="60" uuid="0a08fab5-d90f-4bd6-b89e-a7fe15214bec"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle"/>
+								<textFieldExpression><![CDATA[(($F{sum(a.closedcnt1)}.doubleValue())+($F{sum(a.closedcnt)}.doubleValue())+($F{sum(a.closedcnt2)}.doubleValue()))]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="78" uuid="5ef7d298-9bd1-4439-9080-ea2ea84fa9cd">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column4"/>
+						<jr:columnHeader style="Table_CH" height="46" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="78" height="46" forecolor="#050000" backcolor="#FFFFFF" uuid="f37b4261-a360-452a-9bd6-751dd9c72b84"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font size="11" isBold="true"/>
+								</textElement>
+								<text><![CDATA[Tickets forwarded to service desk]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table_TD" height="60">
+							<textField>
+								<reportElement x="0" y="0" width="78" height="60" uuid="e5bd3b31-e72f-438b-83b6-8511965ff83d"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle"/>
+								<textFieldExpression><![CDATA[$F{sum(a.opencnt)}.doubleValue()+$F{sum(a.opencnt1)}.doubleValue()+$F{sum(a.opencnt2)}.doubleValue()]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="78" uuid="849dafda-79f5-4253-ae67-0a5ebb07de5a">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column5"/>
+						<jr:columnHeader style="Table_CH" height="46" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="78" height="46" forecolor="#050000" backcolor="#FFFFFF" uuid="67603c7c-58f1-4513-b56f-31121bd3fd64"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font size="11" isBold="true"/>
+								</textElement>
+								<text><![CDATA[% of Total Tickets Resolved]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table_TD" height="60">
+							<textField>
+								<reportElement x="0" y="0" width="78" height="60" uuid="396d574f-0e19-4cc2-8b0b-1cf2f0ece24c"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle"/>
+								<textFieldExpression><![CDATA[new DecimalFormat("#,##0.00").format((($F{sum(a.closedcnt)}.doubleValue()+$F{sum(a.closedcnt1)}.doubleValue()+$F{sum(a.closedcnt2)}.doubleValue())/$F{Count(*)}.doubleValue())*100)   + "%"]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+				</jr:table>
+			</componentElement>
+			<barChart>
+				<chart evaluationTime="Report">
+					<reportElement x="410" y="7" width="380" height="203" uuid="4c23a39b-3c9c-4eeb-8de1-992f71732eb2">
+						<printWhenExpression><![CDATA[$P{format}.equals("xlsx") ? new Boolean(false) : new Boolean(true)]]></printWhenExpression>
+					</reportElement>
+					<chartTitle/>
+					<chartSubtitle/>
+					<chartLegend/>
+				</chart>
+				<categoryDataset>
+					<dataset>
+						<datasetRun subDataset="A4Sight" uuid="cf246acd-f232-4c4b-bcff-89420a0007be">
+							<datasetParameter name="start_date">
+								<datasetParameterExpression><![CDATA[$P{start_date}]]></datasetParameterExpression>
+							</datasetParameter>
+							<datasetParameter name="end_date">
+								<datasetParameterExpression><![CDATA[$P{end_date}]]></datasetParameterExpression>
+							</datasetParameter>
+						</datasetRun>
+					</dataset>
+					<categorySeries>
+						<seriesExpression><![CDATA["Daily Report Summary"]]></seriesExpression>
+						<categoryExpression><![CDATA[$F{Date}]]></categoryExpression>
+						<valueExpression><![CDATA[$F{Count(*)}]]></valueExpression>
+					</categorySeries>
+				</categoryDataset>
+				<barPlot>
+					<plot/>
+					<itemLabel/>
+					<categoryAxisFormat>
+						<axisFormat labelColor="#000000" tickLabelColor="#000000" axisLineColor="#000000"/>
+					</categoryAxisFormat>
+					<valueAxisFormat>
+						<axisFormat labelColor="#000000" tickLabelColor="#000000" axisLineColor="#000000"/>
+					</valueAxisFormat>
+				</barPlot>
+			</barChart>
+		</band>
+	</detail>
+</jasperReport>
